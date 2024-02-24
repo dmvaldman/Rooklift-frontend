@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgbg.mc" id="3" lineNum="11" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgbg.mc" id="3" lineNum="12" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgbg.mc" id="3" lineNum="13" pc="268435482" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgbg.mc" id="4" lineNum="16" pc="268435493" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgbg.mc" id="4" lineNum="17" pc="268435497" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgbg.mc" id="4" lineNum="18" pc="268435514" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgbg.mc" id="4" lineNum="19" pc="268435553" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgbg.mc" id="4" lineNum="21" pc="268435577" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="6" lineNum="12" pc="268436578" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="6" lineNum="13" pc="268436582" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="6" lineNum="21" pc="268436600" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="6" lineNum="22" pc="268436603" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="6" lineNum="22" pc="268436627" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="6" lineNum="24" pc="268436640" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="6" lineNum="25" pc="268436657" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="6" lineNum="26" pc="268436696" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="7" lineNum="30" pc="268436751" symbol="onLayout"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="7" lineNum="31" pc="268436755" symbol="onLayout"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="7" lineNum="32" pc="268436774" symbol="onLayout"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="8" lineNum="38" pc="268436794" symbol="onShow"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="42" pc="268436799" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="43" pc="268436803" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="45" pc="268436822" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="46" pc="268436839" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="48" pc="268436913" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="49" pc="268436949" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="50" pc="268436961" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="52" pc="268436997" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="54" pc="268437054" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="56" pc="268437123" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="58" pc="268437192" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="9" lineNum="60" pc="268437261" symbol="onUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="10" lineNum="66" pc="268437331" symbol="onHide"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="11" lineNum="75" pc="268437336" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfView.mc" id="12" lineNum="79" pc="268437341" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="14" lineNum="19" pc="268435596" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="14" lineNum="20" pc="268435600" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="14" lineNum="21" pc="268435618" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="14" lineNum="22" pc="268435635" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="14" lineNum="24" pc="268435674" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="14" lineNum="25" pc="268435698" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="14" lineNum="27" pc="268435732" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="14" lineNum="27" pc="268435756" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="14" lineNum="28" pc="268435769" symbol="initialize"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="15" lineNum="32" pc="268435800" symbol="onStart"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="15" lineNum="33" pc="268435804" symbol="onStart"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="16" lineNum="37" pc="268435826" symbol="onStop"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="16" lineNum="39" pc="268435830" symbol="onStop"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="16" lineNum="40" pc="268435842" symbol="onStop"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="16" lineNum="41" pc="268435859" symbol="onStop"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="16" lineNum="42" pc="268435898" symbol="onStop"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="16" lineNum="43" pc="268435937" symbol="onStop"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="16" lineNum="45" pc="268435981" symbol="onStop"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="17" lineNum="50" pc="268436003" symbol="getInitialView"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="17" lineNum="51" pc="268436007" symbol="getInitialView"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="17" lineNum="53" pc="268436028" symbol="getInitialView"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="17" lineNum="54" pc="268436051" symbol="getInitialView"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="17" lineNum="55" pc="268436061" symbol="getInitialView"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="17" lineNum="57" pc="268436111" symbol="getInitialView"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="17" lineNum="59" pc="268436132" symbol="getInitialView"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="18" lineNum="62" pc="268436170" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="18" lineNum="63" pc="268436174" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="18" lineNum="64" pc="268436193" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="18" lineNum="65" pc="268436210" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="18" lineNum="66" pc="268436249" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="18" lineNum="67" pc="268436297" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="18" lineNum="68" pc="268436307" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="18" lineNum="69" pc="268436348" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="19" lineNum="72" pc="268436365" symbol="getServiceDelegate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="19" lineNum="73" pc="268436369" symbol="getServiceDelegate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="19" lineNum="74" pc="268436386" symbol="getServiceDelegate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="19" lineNum="75" pc="268436425" symbol="getServiceDelegate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="19" lineNum="76" pc="268436449" symbol="getServiceDelegate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="20" lineNum="79" pc="268436487" symbol="onAppInstall"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="20" lineNum="80" pc="268436491" symbol="onAppInstall"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="21" lineNum="83" pc="268436513" symbol="onAppUpdate"/>
+<entry filename="C:\\Users\\James\\workspace-prod\\vsbgwf\\source\\bgwfApp.mc" id="21" lineNum="84" pc="268436517" symbol="onAppUpdate"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="12" symbol="bgdata"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="9" object="true" symbol="BgbgServiceDelegate"/>
+<entry id="10" object="true" symbol="bgwfView"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="16" symbol="OSDATA"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8390788" method="true" symbol="onAppInstall"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="21" symbol="AppName"/>
+<entry id="8390789" method="true" symbol="onAppUpdate"/>
+<entry field="true" id="15" symbol="OSCOUNTER"/>
+<entry id="8390146" module="true" symbol="Background"/>
+<entry field="true" id="20" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="11" symbol="counter"/>
+<entry id="8390170" method="true" symbol="onBackgroundData"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry id="17" object="true" symbol="bgwfApp"/>
+<entry id="8390169" method="true" symbol="getServiceDelegate"/>
+<entry id="8390148" method="true" symbol="onTemporalEvent"/>
+<entry id="18" module="true" symbol="Layouts"/>
+<entry id="8390147" object="true" symbol="ServiceDelegate"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="14" symbol="inBackground"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry id="19" module="true" symbol="Menus"/>
+<entry field="true" id="13" symbol="canDoBG"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="22" symbol="u"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435595" name="now" stackId="1" startPc="268435497"/>
+<entry endPc="268435595" name="ts" stackId="2" startPc="268435497"/>
+<entry endPc="268436750" name="temp" stackId="1" startPc="268436582"/>
+<entry endPc="268436750" name="now" stackId="2" startPc="268436582"/>
+<entry endPc="268436750" name="ts" stackId="3" startPc="268436582"/>
+<entry endPc="268436794" name="dc" stackId="1" startPc="268436751"/>
+<entry endPc="268437330" name="timeString" stackId="3" startPc="268436803"/>
+<entry endPc="268437330" name="clockTime" stackId="2" startPc="268436803"/>
+<entry endPc="268437331" name="dc" stackId="1" startPc="268436799"/>
+<entry endPc="268435799" name="temp" stackId="3" startPc="268435600"/>
+<entry endPc="268435799" name="now" stackId="1" startPc="268435600"/>
+<entry endPc="268435799" name="ts" stackId="2" startPc="268435600"/>
+<entry endPc="268435826" name="state" stackId="1" startPc="268435800"/>
+<entry endPc="268435978" name="now" stackId="2" startPc="268435842"/>
+<entry endPc="268435978" name="ts" stackId="3" startPc="268435842"/>
+<entry endPc="268436003" name="state" stackId="1" startPc="268435826"/>
+<entry endPc="268436364" name="now" stackId="2" startPc="268436174"/>
+<entry endPc="268436364" name="ts" stackId="3" startPc="268436174"/>
+<entry endPc="268436365" name="data" stackId="1" startPc="268436170"/>
+<entry endPc="268436486" name="now" stackId="1" startPc="268436369"/>
+<entry endPc="268436486" name="ts" stackId="2" startPc="268436369"/>
+</localVars>
+<annotations/>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="206" parentId="globals" symbolId="bgwfApp" type="class"/>
+<dataEntry offset="309" parentId="globals" symbolId="BgbgServiceDelegate" type="class"/>
+<dataEntry offset="857" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="936" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="975" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="1006" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="1037" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="1068" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="1099" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1138" parentId="globals" symbolId="bgwfView" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="BgbgServiceDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onTemporalEvent" parent="BgbgServiceDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="bgwfView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="bgwfView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="bgwfView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="bgwfView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="bgwfView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="bgwfView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="bgwfView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="bgwfApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="bgwfApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="bgwfApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="bgwfApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBackgroundData" parent="bgwfApp">
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getServiceDelegate" parent="bgwfApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onAppInstall" parent="bgwfApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onAppUpdate" parent="bgwfApp">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

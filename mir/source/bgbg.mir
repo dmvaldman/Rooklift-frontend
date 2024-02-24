@@ -1,0 +1,68 @@
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc"; @line = 1; ]
+using Toybox.Background;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc"; @line = 2; ]
+using Toybox.System as :Sys;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc"; @line = 8; background = true; ]
+class BgbgServiceDelegate extends Toybox.System.ServiceDelegate{
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc"; @line = 9; ]
+    <init> {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc"; @line = 9; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc"; @line = 11; ]
+    function initialize() as Void {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgbg_mc_11_23_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" 12 2 ]
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv %tmp.1 :ServiceDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" 13 2 ]
+        %tmp.4 = true;
+        putv self :inBackground %tmp.4;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgbg_mc_11_23_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc"; @line = 16; ]
+    function onTemporalEvent() {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgbg_mc_16_31_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" 17 5 ]
+        [ "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgbg_mc_16_31_start" "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgbg_mc_16_31_stop" ]
+        %now.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %now.1 %tmp.3;
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" 18 5 ]
+        [ "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgbg_mc_16_31_start" "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgbg_mc_16_31_stop" ]
+        %ts.2 = local;
+        %tmp.4 = lgetv %now.1;
+        %tmp.5 = getv %tmp.4 :hour;
+        %tmp.6 = ":";
+        %tmp.7 = add %tmp.5 %tmp.6;
+        %tmp.8 = lgetv %now.1;
+        %tmp.9 = getv %tmp.8 :min;
+        %tmp.10 = getv function %tmp.9 :format;
+        %tmp.11 = "%02d";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        %tmp.13 = add %tmp.7 %tmp.12;
+        lputv %ts.2 %tmp.13;
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" 19 8 ]
+        %tmp.14 = getm $.Toybox.System;
+        %tmp.15 = getv function %tmp.14 :println;
+        %tmp.16 = "bg exit: ";
+        %tmp.18 = lgetv %ts.2;
+        %tmp.19 = add %tmp.16 %tmp.18;
+        invoke %tmp.14 %tmp.15(%tmp.19);
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" 21 8 ]
+        %tmp.20 = getm $.Toybox.Background;
+        %tmp.21 = getv function %tmp.20 :exit;
+        %tmp.23 = lgetv %ts.2;
+        invoke %tmp.20 %tmp.21(%tmp.23);
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgbg_mc_16_31_stop:
+    }
+}
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc"; @line = 1; ]
+<init> {
+}
