@@ -25,38 +25,37 @@ class bgwfView extends WatchUi.View{
     function initialize() as Void {
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_11_26_start:
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" 12 8 ]
-        %tmp.2 = getv ? :WatchFace;
+        %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" 13 8 ]
         [ "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_11_26_start" "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_11_26_stop" ]
         %temp.1 = local;
         %tmp.4 = getm $.Toybox.Application;
-        %tmp.5 = getv function %tmp.4 :getApp;
-        %tmp.6 = invoke %tmp.4 %tmp.5();
-        %tmp.7 = getv function %tmp.6 :getProperty;
-        %tmp.9 = getv ? :OSLEVEL;
-        %tmp.10 = invoke %tmp.6 %tmp.7(%tmp.9);
-        lputv %temp.1 %tmp.10;
+        %tmp.5 = getv %tmp.4 :Storage;
+        %tmp.6 = getv function %tmp.5 :getValue;
+        %tmp.7 = "level";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        lputv %temp.1 %tmp.8;
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" 14 8 ]
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_14_8_if_stmt:
-        %tmp.12 = lgetv %temp.1;
-        %tmp.13 = null;
-        %tmp.14 = eq %tmp.12 %tmp.13;
-        bf %tmp.14 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_14_8_if_false;
+        %tmp.10 = lgetv %temp.1;
+        %tmp.11 = null;
+        %tmp.12 = eq %tmp.10 %tmp.11;
+        bf %tmp.12 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_14_8_if_false;
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_14_8_if_true:
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_14_26_start:
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" 15 12 ]
-        %tmp.15 = 0;
-        putv self :level %tmp.15;
+        %tmp.13 = 1;
+        putv self :level %tmp.13;
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_14_26_stop:
         goto @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_14_8_if_end;
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_14_8_if_false:
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_17_13_start:
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" 18 12 ]
-        %tmp.17 = lgetv %temp.1;
-        %tmp.18 = as %tmp.17 { (!Null) };
-        putv self :level %tmp.18;
+        %tmp.15 = lgetv %temp.1;
+        %tmp.16 = as %tmp.15 { (!Null) };
+        putv self :level %tmp.16;
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_17_13_stop:
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_14_8_if_end:
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_11_26_stop:
@@ -101,12 +100,12 @@ _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_35_26_start:
         invoke %tmp.9 %tmp.10(%tmp.11);
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" 40 8 ]
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_8_if_stmt:
-        %tmp.13 = getv ? :OSLEVEL;
+        %tmp.13 = getv ? :level;
         %tmp.14 = 1;
         %tmp.15 = eq %tmp.13 %tmp.14;
         bf %tmp.15 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_8_if_false;
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_8_if_true:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_26_start:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_24_start:
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" 41 12 ]
         %tmp.16 = lgetv %dc;
         %tmp.17 = getv function %tmp.16 :setColor;
@@ -115,17 +114,17 @@ _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_26_start:
         %tmp.20 = getm $.Toybox.Graphics;
         %tmp.21 = getv %tmp.20 :COLOR_TRANSPARENT;
         invoke %tmp.16 %tmp.17(%tmp.19, %tmp.21);
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_26_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_24_stop:
         goto @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_8_if_end;
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_8_if_false:
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" 43 13 ]
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_43_13_if_stmt:
-        %tmp.23 = getv ? :OSLEVEL;
+        %tmp.23 = getv ? :level;
         %tmp.24 = 2;
         %tmp.25 = eq %tmp.23 %tmp.24;
         bf %tmp.25 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_43_13_if_false;
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_43_13_if_true:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_43_31_start:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_43_29_start:
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" 44 12 ]
         %tmp.26 = lgetv %dc;
         %tmp.27 = getv function %tmp.26 :setColor;
@@ -134,17 +133,17 @@ _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_43_31_start:
         %tmp.30 = getm $.Toybox.Graphics;
         %tmp.31 = getv %tmp.30 :COLOR_TRANSPARENT;
         invoke %tmp.26 %tmp.27(%tmp.29, %tmp.31);
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_43_31_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_43_29_stop:
         goto @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_43_13_if_end;
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_43_13_if_false:
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" 46 13 ]
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_46_13_if_stmt:
-        %tmp.33 = getv ? :OSLEVEL;
+        %tmp.33 = getv ? :level;
         %tmp.34 = 4;
         %tmp.35 = lte %tmp.33 %tmp.34;
         bf %tmp.35 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_46_13_if_false;
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_46_13_if_true:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_46_31_start:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_46_29_start:
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" 47 12 ]
         %tmp.36 = lgetv %dc;
         %tmp.37 = getv function %tmp.36 :setColor;
@@ -153,7 +152,7 @@ _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_46_31_start:
         %tmp.40 = getm $.Toybox.Graphics;
         %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
         invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41);
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_46_31_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_46_29_stop:
         goto @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_46_13_if_end;
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_46_13_if_false:
 _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_49_13_start:
@@ -181,7 +180,7 @@ _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_8_if_end:
         %tmp.58 = getm $.Toybox.Graphics;
         %tmp.59 = getv %tmp.58 :FONT_TINY;
         %tmp.60 = "Chess Strength\n";
-        %tmp.62 = getv ? :OSLEVEL;
+        %tmp.62 = getv ? :level;
         %tmp.63 = add %tmp.60 %tmp.62;
         %tmp.64 = getm $.Toybox.Graphics;
         %tmp.65 = getv %tmp.64 :TEXT_JUSTIFY_CENTER;
@@ -205,7 +204,7 @@ _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_40_8_if_end:
         %tmp.84 = getv %tmp.83 :ARC_CLOCKWISE;
         %tmp.85 = 0;
         %tmp.86 = 360;
-        %tmp.88 = getv ? :OSLEVEL;
+        %tmp.88 = getv ? :level;
         %tmp.89 = 60;
         %tmp.90 = mul %tmp.88 %tmp.89;
         %tmp.91 = sub %tmp.86 %tmp.90;
@@ -215,10 +214,10 @@ _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfView_mc_35_26_stop:
     [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc"; @line = 60; ]
     function onHide() {
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc"; @line = 69; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc"; @line = 64; ]
     function onExitSleep() {
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc"; @line = 73; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc"; @line = 68; ]
     function onEnterSleep() {
     }
 }

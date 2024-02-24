@@ -1,0 +1,56 @@
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc"; @line = 5; glance = true; ]
+class BGGlanceView extends WatchUi.GlanceView{
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc"; @line = 8; ]
+    function initialize() as Void {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgGlanceView_mc_8_24_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" 9 4 ]
+        %tmp.2 = getv ? :GlanceView;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgGlanceView_mc_8_24_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc"; @line = 12; ]
+    function onLayout(dc as Graphics.Dc) as Void {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc"; @line = 15; ]
+    function onUpdate(dc as Graphics.Dc) as Void {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgGlanceView_mc_15_47_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" 16 4 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_WHITE;
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" 17 4 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :drawText;
+        %tmp.9 = 0;
+        %tmp.10 = 0;
+        %tmp.11 = getm $.Toybox.Graphics;
+        %tmp.12 = getv %tmp.11 :FONT_XTINY;
+        %tmp.13 = "hello";
+        %tmp.14 = as %tmp.13 String;
+        %tmp.15 = getm $.Toybox.Graphics;
+        %tmp.16 = getv %tmp.15 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.7 %tmp.8(%tmp.9, %tmp.10, %tmp.12, %tmp.14, %tmp.16);
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgGlanceView_mc_15_47_stop:
+    }
+}
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc"; @line = 1; ]
+<init> {
+}

@@ -1,6 +1,7 @@
 using Toybox.Application as App;
 using Toybox.Background;
 using Toybox.System as Sys;
+import Toybox.WatchUi;
 using Toybox.WatchUi as Ui;
 using Toybox.Time as Time;
 import Toybox.Lang;
@@ -8,10 +9,7 @@ import Toybox.Lang;
 // info about whats happening with the background process
 var level = 1;
 var canDoBG=false;
-var inBackground=false;			//new 8-27
-
-// keys to the object store data
-var OSLEVEL=1;
+var inBackground=false;
 
 (:background)
 class bgwfApp extends App.AppBase {
@@ -29,10 +27,23 @@ class bgwfApp extends App.AppBase {
     function onStop(state) {
     	//moved from onHide() - using the "is this background" trick
     	if(!inBackground) {
-            App.getApp().setProperty(OSLEVEL, level);
+            App.Storage.setValue("level", level);
     	} else {
     		Sys.println("onStop");
     	}
+    }
+
+    (:glance) function getGlanceView() {
+        return [new BGGlanceView()];
+    }
+
+    function getRandomInteger() {
+        var randomNumber = Math.rand();
+
+        // Use modulus to limit the range to 0-5, then add 1 to shift to 1-6
+        var adjustedNumber = (randomNumber % 6) + 1;
+
+        return adjustedNumber;
     }
 
     // Return the initial view of your application here
@@ -52,9 +63,13 @@ class bgwfApp extends App.AppBase {
         if (data == null || !(data instanceof Lang.Dictionary)) {
             return;
         }
-        level = data.get("level");
-        OSLEVEL = level;
-        App.getApp().setProperty(OSLEVEL, level);
+        // from background process
+        // level = data.get("level");
+
+        // for development
+        level = getRandomInteger();
+
+        App.Storage.setValue("level", level);
         Ui.requestUpdate();
     }
 

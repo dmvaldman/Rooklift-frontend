@@ -17,60 +17,72 @@
 <entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="4" lineNum="43" parent="globals/BgbgServiceDelegate" pc="268435683" symbol="responseCallback"/>
 <entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="4" lineNum="46" parent="globals/BgbgServiceDelegate" pc="268435718" symbol="responseCallback"/>
 <entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="4" lineNum="47" parent="globals/BgbgServiceDelegate" pc="268435742" symbol="responseCallback"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="5" lineNum="17" parent="globals/bgwfApp" pc="268435760" symbol="&lt;init&gt;"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="6" lineNum="69" parent="globals/bgwfApp" pc="268435779" symbol="onAppUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="6" lineNum="70" parent="globals/bgwfApp" pc="268435781" symbol="onAppUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="6" lineNum="71" parent="globals/bgwfApp" pc="268435802" symbol="onAppUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="7" lineNum="24" parent="globals/bgwfApp" pc="268435820" symbol="onStart"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="7" lineNum="25" parent="globals/bgwfApp" pc="268435822" symbol="onStart"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="8" lineNum="65" parent="globals/bgwfApp" pc="268435844" symbol="onAppInstall"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="8" lineNum="66" parent="globals/bgwfApp" pc="268435846" symbol="onAppInstall"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="9" lineNum="61" parent="globals/bgwfApp" pc="268435868" symbol="getServiceDelegate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="9" lineNum="62" parent="globals/bgwfApp" pc="268435870" symbol="getServiceDelegate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="10" lineNum="39" parent="globals/bgwfApp" pc="268435911" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="10" lineNum="40" parent="globals/bgwfApp" pc="268435913" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="10" lineNum="42" parent="globals/bgwfApp" pc="268435934" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="10" lineNum="43" parent="globals/bgwfApp" pc="268435955" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="10" lineNum="44" parent="globals/bgwfApp" pc="268435965" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="10" lineNum="46" parent="globals/bgwfApp" pc="268436015" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="10" lineNum="48" parent="globals/bgwfApp" pc="268436036" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="19" parent="globals/bgwfApp" pc="268436077" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="20" parent="globals/bgwfApp" pc="268436079" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="12" lineNum="51" parent="globals/bgwfApp" pc="268436098" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="12" lineNum="52" parent="globals/bgwfApp" pc="268436100" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="12" lineNum="53" parent="globals/bgwfApp" pc="268436129" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="12" lineNum="55" parent="globals/bgwfApp" pc="268436133" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="12" lineNum="56" parent="globals/bgwfApp" pc="268436157" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="12" lineNum="57" parent="globals/bgwfApp" pc="268436173" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="12" lineNum="58" parent="globals/bgwfApp" pc="268436214" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="29" parent="globals/bgwfApp" pc="268436231" symbol="onStop"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="31" parent="globals/bgwfApp" pc="268436233" symbol="onStop"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="32" parent="globals/bgwfApp" pc="268436245" symbol="onStop"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="34" parent="globals/bgwfApp" pc="268436289" symbol="onStop"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="14" lineNum="7" parent="globals/bgwfView" pc="268436311" symbol="&lt;init&gt;"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="17" lineNum="23" parent="globals/bgwfView" pc="268436330" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="17" lineNum="24" parent="globals/bgwfView" pc="268436332" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="17" lineNum="25" parent="globals/bgwfView" pc="268436351" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="19" lineNum="11" parent="globals/bgwfView" pc="268436371" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="19" lineNum="12" parent="globals/bgwfView" pc="268436375" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="19" lineNum="13" parent="globals/bgwfView" pc="268436393" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="19" lineNum="14" parent="globals/bgwfView" pc="268436427" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="19" lineNum="15" parent="globals/bgwfView" pc="268436434" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="19" lineNum="18" parent="globals/bgwfView" pc="268436450" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="35" parent="globals/bgwfView" pc="268436461" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="36" parent="globals/bgwfView" pc="268436463" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="37" parent="globals/bgwfView" pc="268436485" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="38" parent="globals/bgwfView" pc="268436497" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="40" parent="globals/bgwfView" pc="268436514" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="41" parent="globals/bgwfView" pc="268436531" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="43" parent="globals/bgwfView" pc="268436556" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="44" parent="globals/bgwfView" pc="268436573" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="46" parent="globals/bgwfView" pc="268436598" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="47" parent="globals/bgwfView" pc="268436615" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="50" parent="globals/bgwfView" pc="268436640" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="53" parent="globals/bgwfView" pc="268436662" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="21" lineNum="54" parent="globals/bgwfView" pc="268436726" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/bin/gen/006-B3703-00/source/Rez.mcgen" id="22" lineNum="7" parent="globals/Rez" pc="268436811" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="5" lineNum="15" parent="globals/bgwfApp" pc="268435760" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="6" lineNum="84" parent="globals/bgwfApp" pc="268435779" symbol="onAppUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="6" lineNum="85" parent="globals/bgwfApp" pc="268435781" symbol="onAppUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="6" lineNum="86" parent="globals/bgwfApp" pc="268435802" symbol="onAppUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="7" lineNum="40" parent="globals/bgwfApp" pc="268435820" symbol="getRandomInteger"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="7" lineNum="41" parent="globals/bgwfApp" pc="268435824" symbol="getRandomInteger"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="7" lineNum="44" parent="globals/bgwfApp" pc="268435843" symbol="getRandomInteger"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="7" lineNum="46" parent="globals/bgwfApp" pc="268435859" symbol="getRandomInteger"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="8" lineNum="22" parent="globals/bgwfApp" pc="268435862" symbol="onStart"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="8" lineNum="23" parent="globals/bgwfApp" pc="268435864" symbol="onStart"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="9" lineNum="80" parent="globals/bgwfApp" pc="268435886" symbol="onAppInstall"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="9" lineNum="81" parent="globals/bgwfApp" pc="268435888" symbol="onAppInstall"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="10" lineNum="76" parent="globals/bgwfApp" pc="268435910" symbol="getServiceDelegate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="10" lineNum="77" parent="globals/bgwfApp" pc="268435912" symbol="getServiceDelegate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="50" parent="globals/bgwfApp" pc="268435953" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="51" parent="globals/bgwfApp" pc="268435955" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="53" parent="globals/bgwfApp" pc="268435976" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="54" parent="globals/bgwfApp" pc="268435997" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="55" parent="globals/bgwfApp" pc="268436007" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="57" parent="globals/bgwfApp" pc="268436057" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="59" parent="globals/bgwfApp" pc="268436078" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="12" lineNum="17" parent="globals/bgwfApp" pc="268436119" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="12" lineNum="18" parent="globals/bgwfApp" pc="268436121" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="62" parent="globals/bgwfApp" pc="268436140" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="63" parent="globals/bgwfApp" pc="268436142" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="64" parent="globals/bgwfApp" pc="268436171" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="70" parent="globals/bgwfApp" pc="268436175" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="72" parent="globals/bgwfApp" pc="268436194" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="73" parent="globals/bgwfApp" pc="268436229" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="14" lineNum="36" parent="globals/bgwfApp" pc="268436246" symbol="getGlanceView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="14" lineNum="37" parent="globals/bgwfApp" pc="268436248" symbol="getGlanceView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="15" lineNum="27" parent="globals/bgwfApp" pc="268436289" symbol="onStop"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="15" lineNum="29" parent="globals/bgwfApp" pc="268436291" symbol="onStop"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="15" lineNum="30" parent="globals/bgwfApp" pc="268436303" symbol="onStop"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="15" lineNum="32" parent="globals/bgwfApp" pc="268436341" symbol="onStop"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="16" lineNum="6" parent="globals/BGGlanceView" pc="268436363" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="17" lineNum="12" parent="globals/BGGlanceView" pc="268436382" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="18" lineNum="8" parent="globals/BGGlanceView" pc="268436385" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="18" lineNum="9" parent="globals/BGGlanceView" pc="268436387" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="19" lineNum="15" parent="globals/BGGlanceView" pc="268436406" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="19" lineNum="16" parent="globals/BGGlanceView" pc="268436408" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="19" lineNum="17" parent="globals/BGGlanceView" pc="268436430" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="20" lineNum="7" parent="globals/bgwfView" pc="268436468" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="23" lineNum="23" parent="globals/bgwfView" pc="268436487" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="23" lineNum="24" parent="globals/bgwfView" pc="268436489" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="23" lineNum="25" parent="globals/bgwfView" pc="268436508" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="11" parent="globals/bgwfView" pc="268436528" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="12" parent="globals/bgwfView" pc="268436532" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="13" parent="globals/bgwfView" pc="268436550" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="14" parent="globals/bgwfView" pc="268436578" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="15" parent="globals/bgwfView" pc="268436585" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="18" parent="globals/bgwfView" pc="268436601" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="35" parent="globals/bgwfView" pc="268436612" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="36" parent="globals/bgwfView" pc="268436614" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="37" parent="globals/bgwfView" pc="268436636" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="38" parent="globals/bgwfView" pc="268436648" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="40" parent="globals/bgwfView" pc="268436665" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="41" parent="globals/bgwfView" pc="268436682" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="43" parent="globals/bgwfView" pc="268436707" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="44" parent="globals/bgwfView" pc="268436724" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="46" parent="globals/bgwfView" pc="268436749" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="47" parent="globals/bgwfView" pc="268436766" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="50" parent="globals/bgwfView" pc="268436791" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="53" parent="globals/bgwfView" pc="268436813" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="54" parent="globals/bgwfView" pc="268436877" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/bin/gen/006-B3703-00/source/Rez.mcgen" id="28" lineNum="7" parent="globals/Rez" pc="268436962" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -80,10 +92,11 @@
 <entry id="7" module="true" symbol="globals/Rez/Menus"/>
 <entry id="11" object="true" symbol="bgwfApp"/>
 <entry field="true" id="14" symbol="inBackground"/>
-<entry id="9" object="true" symbol="BgbgServiceDelegate"/>
+<entry id="16" method="true" symbol="getRandomInteger"/>
+<entry id="10" object="true" symbol="BgbgServiceDelegate"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="12" object="true" symbol="bgwfView"/>
-<entry field="true" id="19" symbol="AppName"/>
+<entry field="true" id="20" symbol="AppName"/>
 <entry id="8390788" method="true" symbol="onAppInstall"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8389594" symbol="headers"/>
@@ -96,10 +109,9 @@
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry field="true" id="8389067" symbol="height"/>
 <entry id="8390169" method="true" symbol="getServiceDelegate"/>
-<entry id="17" module="true" symbol="Menus"/>
+<entry id="18" module="true" symbol="Menus"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
 <entry field="true" id="8389066" symbol="width"/>
-<entry field="true" id="10" symbol="OSLEVEL"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
@@ -115,9 +127,10 @@
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="18" symbol="LauncherIcon"/>
+<entry field="true" id="19" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
+<entry id="9" object="true" symbol="BGGlanceView"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8390146" module="true" symbol="Background"/>
@@ -126,8 +139,9 @@
 <entry field="true" id="8391717" symbol="level"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="16" module="true" symbol="Layouts"/>
+<entry id="17" module="true" symbol="Layouts"/>
 <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8391457" method="true" symbol="getGlanceView"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 </symbolTable>
 <localVars>
@@ -136,40 +150,59 @@
 <entry endPc="268435609" name="options" stackId="3" startPc="268435483"/>
 <entry arg="true" endPc="268435759" name="responseCode" stackId="1" startPc="268435646"/>
 <entry arg="true" endPc="268435759" name="data" stackId="2" startPc="268435646"/>
-<entry arg="true" endPc="268435843" name="state" stackId="1" startPc="268435820"/>
-<entry arg="true" endPc="268436230" name="data" stackId="1" startPc="268436098"/>
-<entry arg="true" endPc="268436310" name="state" stackId="1" startPc="268436231"/>
-<entry arg="true" endPc="268436370" name="dc" stackId="1" startPc="268436330"/>
-<entry endPc="268436459" name="temp" stackId="1" startPc="268436375"/>
-<entry arg="true" endPc="268436810" name="dc" stackId="1" startPc="268436461"/>
+<entry endPc="268435861" name="randomNumber" stackId="1" startPc="268435824"/>
+<entry endPc="268435861" name="adjustedNumber" stackId="2" startPc="268435824"/>
+<entry arg="true" endPc="268435885" name="state" stackId="1" startPc="268435862"/>
+<entry arg="true" endPc="268436245" name="data" stackId="1" startPc="268436140"/>
+<entry arg="true" endPc="268436362" name="state" stackId="1" startPc="268436289"/>
+<entry arg="true" endPc="268436467" name="dc" stackId="1" startPc="268436406"/>
+<entry arg="true" endPc="268436527" name="dc" stackId="1" startPc="268436487"/>
+<entry endPc="268436610" name="temp" stackId="1" startPc="268436532"/>
+<entry arg="true" endPc="268436961" name="dc" stackId="1" startPc="268436612"/>
 </localVars>
 <annotations>
+<annotationEntry annotation="glance" class="BGGlanceView" module="globals" symbol="initialize"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="getRandomInteger"/>
+<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="getRandomInteger"/>
 <annotationEntry annotation="background" class="BgbgServiceDelegate" module="globals" symbol="responseCallback"/>
+<annotationEntry annotation="glance" class="BGGlanceView" module="globals" symbol="onUpdate"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="getInitialView"/>
 <annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="getInitialView"/>
+<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="onAppUpdate"/>
 <annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="onAppUpdate"/>
 <annotationEntry annotation="background" class="BgbgServiceDelegate" module="globals" symbol="onTemporalEvent"/>
+<annotationEntry annotation="glance" class="BGGlanceView" module="globals" symbol="onLayout"/>
+<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="initialize"/>
 <annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="initialize"/>
+<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="onAppInstall"/>
 <annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="onAppInstall"/>
+<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="onStart"/>
 <annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="onStart"/>
+<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="onStop"/>
 <annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="onStop"/>
+<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="getGlanceView"/>
+<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="getGlanceView"/>
 <annotationEntry annotation="background" class="BgbgServiceDelegate" module="globals" symbol="initialize"/>
+<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="getServiceDelegate"/>
 <annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="getServiceDelegate"/>
+<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="onBackgroundData"/>
 <annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="onBackgroundData"/>
 </annotations>
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/BgbgServiceDelegate" offset="190" parentId="globals" symbolId="BgbgServiceDelegate" type="class"/>
 <dataEntry label="globals/bgwfApp" offset="253" parentId="globals" symbolId="bgwfApp" type="class"/>
-<dataEntry label="globals/bgwfView" offset="897" parentId="globals" symbolId="bgwfView" type="class"/>
-<dataEntry label="globals/Rez" offset="1008" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/Rez/Drawables" offset="1087" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="1126" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="1157" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="1188" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="1219" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="1258" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/BGGlanceView" offset="950" parentId="globals" symbolId="BGGlanceView" type="class"/>
+<dataEntry label="globals/bgwfView" offset="1112" parentId="globals" symbolId="bgwfView" type="class"/>
+<dataEntry label="globals/Rez" offset="1223" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="1302" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1341" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="1372" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1403" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1434" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1473" parentId="Rez" symbolId="JsonData" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="BgbgServiceDelegate" startPc="268435460">
@@ -192,31 +225,51 @@
 <functionEntry accessMode="public" endPc="268435819" name="onAppUpdate" parent="bgwfApp" startPc="268435779">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435843" name="onStart" parent="bgwfApp" startPc="268435820">
+<functionEntry accessMode="public" endPc="268435861" name="getRandomInteger" parent="bgwfApp" startPc="268435820">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435885" name="onStart" parent="bgwfApp" startPc="268435862">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435867" name="onAppInstall" parent="bgwfApp" startPc="268435844">
+<functionEntry accessMode="public" endPc="268435909" name="onAppInstall" parent="bgwfApp" startPc="268435886">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435910" name="getServiceDelegate" parent="bgwfApp" startPc="268435868">
+<functionEntry accessMode="public" endPc="268435952" name="getServiceDelegate" parent="bgwfApp" startPc="268435910">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436076" name="getInitialView" parent="bgwfApp" startPc="268435911">
+<functionEntry accessMode="public" endPc="268436118" name="getInitialView" parent="bgwfApp" startPc="268435953">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436097" name="initialize" parent="bgwfApp" startPc="268436077">
+<functionEntry accessMode="public" endPc="268436139" name="initialize" parent="bgwfApp" startPc="268436119">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436230" name="onBackgroundData" parent="bgwfApp" startPc="268436098">
+<functionEntry accessMode="public" endPc="268436245" name="onBackgroundData" parent="bgwfApp" startPc="268436140">
 <param id="data"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436310" name="onStop" parent="bgwfApp" startPc="268436231">
+<functionEntry accessMode="public" endPc="268436288" name="getGlanceView" parent="bgwfApp" startPc="268436246">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436362" name="onStop" parent="bgwfApp" startPc="268436289">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436329" name="&lt;init&gt;" parent="bgwfView" startPc="268436311">
+<functionEntry accessMode="public" endPc="268436381" name="&lt;init&gt;" parent="BGGlanceView" startPc="268436363">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436384" name="onLayout" parent="BGGlanceView" startPc="268436382">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436405" name="initialize" parent="BGGlanceView" startPc="268436385">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436467" name="onUpdate" parent="BGGlanceView" startPc="268436406">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436486" name="&lt;init&gt;" parent="bgwfView" startPc="268436468">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onExitSleep" parent="bgwfView">
@@ -225,24 +278,24 @@
 <functionEntry accessMode="public" name="onShow" parent="bgwfView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436370" name="onLayout" parent="bgwfView" startPc="268436330">
+<functionEntry accessMode="public" endPc="268436527" name="onLayout" parent="bgwfView" startPc="268436487">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="bgwfView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436460" name="initialize" parent="bgwfView" startPc="268436371">
+<functionEntry accessMode="public" endPc="268436611" name="initialize" parent="bgwfView" startPc="268436528">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="bgwfView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436810" name="onUpdate" parent="bgwfView" startPc="268436461">
+<functionEntry accessMode="public" endPc="268436961" name="onUpdate" parent="bgwfView" startPc="268436612">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436834" name="&lt;init&gt;" parent="Rez" startPc="268436811">
+<functionEntry accessMode="public" endPc="268436985" name="&lt;init&gt;" parent="Rez" startPc="268436962">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
