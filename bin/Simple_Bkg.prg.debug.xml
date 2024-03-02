@@ -2,101 +2,145 @@
 <debugInfo>
 <manifest filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/manifest.xml"/>
 <pcToLineNum>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="1" lineNum="11" parent="globals/BgbgServiceDelegate" pc="268435460" symbol="&lt;init&gt;"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="2" lineNum="19" parent="globals/BgbgServiceDelegate" pc="268435479" symbol="onTemporalEvent"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="2" lineNum="21" parent="globals/BgbgServiceDelegate" pc="268435483" symbol="onTemporalEvent"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="2" lineNum="23" parent="globals/BgbgServiceDelegate" pc="268435490" symbol="onTemporalEvent"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="2" lineNum="25" parent="globals/BgbgServiceDelegate" pc="268435498" symbol="onTemporalEvent"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="2" lineNum="34" parent="globals/BgbgServiceDelegate" pc="268435572" symbol="onTemporalEvent"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="3" lineNum="13" parent="globals/BgbgServiceDelegate" pc="268435611" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="3" lineNum="14" parent="globals/BgbgServiceDelegate" pc="268435613" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="3" lineNum="15" parent="globals/BgbgServiceDelegate" pc="268435635" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="4" lineNum="37" parent="globals/BgbgServiceDelegate" pc="268435646" symbol="responseCallback"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="4" lineNum="41" parent="globals/BgbgServiceDelegate" pc="268435648" symbol="responseCallback"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="4" lineNum="42" parent="globals/BgbgServiceDelegate" pc="268435659" symbol="responseCallback"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="4" lineNum="43" parent="globals/BgbgServiceDelegate" pc="268435683" symbol="responseCallback"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="4" lineNum="46" parent="globals/BgbgServiceDelegate" pc="268435718" symbol="responseCallback"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgbg.mc" id="4" lineNum="47" parent="globals/BgbgServiceDelegate" pc="268435742" symbol="responseCallback"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="5" lineNum="15" parent="globals/bgwfApp" pc="268435760" symbol="&lt;init&gt;"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="6" lineNum="84" parent="globals/bgwfApp" pc="268435779" symbol="onAppUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="6" lineNum="85" parent="globals/bgwfApp" pc="268435781" symbol="onAppUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="6" lineNum="86" parent="globals/bgwfApp" pc="268435802" symbol="onAppUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="7" lineNum="40" parent="globals/bgwfApp" pc="268435820" symbol="getRandomInteger"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="7" lineNum="41" parent="globals/bgwfApp" pc="268435824" symbol="getRandomInteger"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="7" lineNum="44" parent="globals/bgwfApp" pc="268435843" symbol="getRandomInteger"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="7" lineNum="46" parent="globals/bgwfApp" pc="268435859" symbol="getRandomInteger"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="8" lineNum="22" parent="globals/bgwfApp" pc="268435862" symbol="onStart"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="8" lineNum="23" parent="globals/bgwfApp" pc="268435864" symbol="onStart"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="9" lineNum="80" parent="globals/bgwfApp" pc="268435886" symbol="onAppInstall"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="9" lineNum="81" parent="globals/bgwfApp" pc="268435888" symbol="onAppInstall"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="10" lineNum="76" parent="globals/bgwfApp" pc="268435910" symbol="getServiceDelegate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="10" lineNum="77" parent="globals/bgwfApp" pc="268435912" symbol="getServiceDelegate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="50" parent="globals/bgwfApp" pc="268435953" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="51" parent="globals/bgwfApp" pc="268435955" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="53" parent="globals/bgwfApp" pc="268435976" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="54" parent="globals/bgwfApp" pc="268435997" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="55" parent="globals/bgwfApp" pc="268436007" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="57" parent="globals/bgwfApp" pc="268436057" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="11" lineNum="59" parent="globals/bgwfApp" pc="268436078" symbol="getInitialView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="12" lineNum="17" parent="globals/bgwfApp" pc="268436119" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="12" lineNum="18" parent="globals/bgwfApp" pc="268436121" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="62" parent="globals/bgwfApp" pc="268436140" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="63" parent="globals/bgwfApp" pc="268436142" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="64" parent="globals/bgwfApp" pc="268436171" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="70" parent="globals/bgwfApp" pc="268436175" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="72" parent="globals/bgwfApp" pc="268436194" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="13" lineNum="73" parent="globals/bgwfApp" pc="268436229" symbol="onBackgroundData"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="14" lineNum="36" parent="globals/bgwfApp" pc="268436246" symbol="getGlanceView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="14" lineNum="37" parent="globals/bgwfApp" pc="268436248" symbol="getGlanceView"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="15" lineNum="27" parent="globals/bgwfApp" pc="268436289" symbol="onStop"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="15" lineNum="29" parent="globals/bgwfApp" pc="268436291" symbol="onStop"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="15" lineNum="30" parent="globals/bgwfApp" pc="268436303" symbol="onStop"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" id="15" lineNum="32" parent="globals/bgwfApp" pc="268436341" symbol="onStop"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="16" lineNum="6" parent="globals/BGGlanceView" pc="268436363" symbol="&lt;init&gt;"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="17" lineNum="12" parent="globals/BGGlanceView" pc="268436382" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="18" lineNum="8" parent="globals/BGGlanceView" pc="268436385" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="18" lineNum="9" parent="globals/BGGlanceView" pc="268436387" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="19" lineNum="15" parent="globals/BGGlanceView" pc="268436406" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="19" lineNum="16" parent="globals/BGGlanceView" pc="268436408" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgGlanceView.mc" id="19" lineNum="17" parent="globals/BGGlanceView" pc="268436430" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="20" lineNum="7" parent="globals/bgwfView" pc="268436468" symbol="&lt;init&gt;"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="23" lineNum="23" parent="globals/bgwfView" pc="268436487" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="23" lineNum="24" parent="globals/bgwfView" pc="268436489" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="23" lineNum="25" parent="globals/bgwfView" pc="268436508" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="11" parent="globals/bgwfView" pc="268436528" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="12" parent="globals/bgwfView" pc="268436532" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="13" parent="globals/bgwfView" pc="268436550" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="14" parent="globals/bgwfView" pc="268436578" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="15" parent="globals/bgwfView" pc="268436585" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="25" lineNum="18" parent="globals/bgwfView" pc="268436601" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="35" parent="globals/bgwfView" pc="268436612" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="36" parent="globals/bgwfView" pc="268436614" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="37" parent="globals/bgwfView" pc="268436636" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="38" parent="globals/bgwfView" pc="268436648" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="40" parent="globals/bgwfView" pc="268436665" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="41" parent="globals/bgwfView" pc="268436682" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="43" parent="globals/bgwfView" pc="268436707" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="44" parent="globals/bgwfView" pc="268436724" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="46" parent="globals/bgwfView" pc="268436749" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="47" parent="globals/bgwfView" pc="268436766" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="50" parent="globals/bgwfView" pc="268436791" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="53" parent="globals/bgwfView" pc="268436813" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfView.mc" id="27" lineNum="54" parent="globals/bgwfView" pc="268436877" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/bin/gen/006-B3703-00/source/Rez.mcgen" id="28" lineNum="7" parent="globals/Rez" pc="268436962" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="1" lineNum="16" parent="globals/RookLiftApp" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="2" lineNum="90" parent="globals/RookLiftApp" pc="268435479" symbol="onAppUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="2" lineNum="91" parent="globals/RookLiftApp" pc="268435481" symbol="onAppUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="2" lineNum="92" parent="globals/RookLiftApp" pc="268435502" symbol="onAppUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="3" lineNum="42" parent="globals/RookLiftApp" pc="268435520" symbol="getRandomInteger"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="3" lineNum="43" parent="globals/RookLiftApp" pc="268435524" symbol="getRandomInteger"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="3" lineNum="46" parent="globals/RookLiftApp" pc="268435543" symbol="getRandomInteger"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="3" lineNum="48" parent="globals/RookLiftApp" pc="268435559" symbol="getRandomInteger"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="4" lineNum="23" parent="globals/RookLiftApp" pc="268435562" symbol="onStart"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="4" lineNum="24" parent="globals/RookLiftApp" pc="268435564" symbol="onStart"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="5" lineNum="86" parent="globals/RookLiftApp" pc="268435586" symbol="onAppInstall"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="5" lineNum="87" parent="globals/RookLiftApp" pc="268435588" symbol="onAppInstall"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="6" lineNum="82" parent="globals/RookLiftApp" pc="268435610" symbol="getServiceDelegate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="6" lineNum="83" parent="globals/RookLiftApp" pc="268435612" symbol="getServiceDelegate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="7" lineNum="52" parent="globals/RookLiftApp" pc="268435653" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="7" lineNum="54" parent="globals/RookLiftApp" pc="268435655" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="7" lineNum="55" parent="globals/RookLiftApp" pc="268435676" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="7" lineNum="56" parent="globals/RookLiftApp" pc="268435686" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="7" lineNum="58" parent="globals/RookLiftApp" pc="268435736" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="7" lineNum="60" parent="globals/RookLiftApp" pc="268435757" symbol="getInitialView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="8" lineNum="18" parent="globals/RookLiftApp" pc="268435798" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="8" lineNum="19" parent="globals/RookLiftApp" pc="268435800" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="9" lineNum="63" parent="globals/RookLiftApp" pc="268435819" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="9" lineNum="64" parent="globals/RookLiftApp" pc="268435821" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="9" lineNum="65" parent="globals/RookLiftApp" pc="268435850" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="9" lineNum="68" parent="globals/RookLiftApp" pc="268435854" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="9" lineNum="69" parent="globals/RookLiftApp" pc="268435878" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="9" lineNum="75" parent="globals/RookLiftApp" pc="268435902" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="9" lineNum="76" parent="globals/RookLiftApp" pc="268435937" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="9" lineNum="79" parent="globals/RookLiftApp" pc="268435972" symbol="onBackgroundData"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="10" lineNum="38" parent="globals/RookLiftApp" pc="268435989" symbol="getGlanceView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="10" lineNum="39" parent="globals/RookLiftApp" pc="268435991" symbol="getGlanceView"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="11" lineNum="28" parent="globals/RookLiftApp" pc="268436032" symbol="onStop"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="11" lineNum="30" parent="globals/RookLiftApp" pc="268436034" symbol="onStop"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="11" lineNum="31" parent="globals/RookLiftApp" pc="268436046" symbol="onStop"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="11" lineNum="32" parent="globals/RookLiftApp" pc="268436081" symbol="onStop"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftApp.mc" id="11" lineNum="34" parent="globals/RookLiftApp" pc="268436119" symbol="onStop"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="12" lineNum="11" parent="globals/BgServiceDelegate" pc="268436141" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="13" lineNum="18" parent="globals/BgServiceDelegate" pc="268436160" symbol="onTemporalEvent"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="13" lineNum="19" parent="globals/BgServiceDelegate" pc="268436164" symbol="onTemporalEvent"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="13" lineNum="21" parent="globals/BgServiceDelegate" pc="268436171" symbol="onTemporalEvent"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="13" lineNum="23" parent="globals/BgServiceDelegate" pc="268436179" symbol="onTemporalEvent"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="13" lineNum="32" parent="globals/BgServiceDelegate" pc="268436253" symbol="onTemporalEvent"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="14" lineNum="13" parent="globals/BgServiceDelegate" pc="268436292" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="14" lineNum="14" parent="globals/BgServiceDelegate" pc="268436294" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="14" lineNum="15" parent="globals/BgServiceDelegate" pc="268436316" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="15" lineNum="35" parent="globals/BgServiceDelegate" pc="268436327" symbol="responseCallback"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="15" lineNum="36" parent="globals/BgServiceDelegate" pc="268436329" symbol="responseCallback"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="15" lineNum="37" parent="globals/BgServiceDelegate" pc="268436340" symbol="responseCallback"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="15" lineNum="38" parent="globals/BgServiceDelegate" pc="268436364" symbol="responseCallback"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="15" lineNum="41" parent="globals/BgServiceDelegate" pc="268436399" symbol="responseCallback"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bg.mc" id="15" lineNum="42" parent="globals/BgServiceDelegate" pc="268436423" symbol="responseCallback"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="16" lineNum="8" parent="globals/RoofLiftGlanceView" pc="268436441" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="17" lineNum="20" parent="globals/RoofLiftGlanceView" pc="268436460" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="17" lineNum="21" parent="globals/RoofLiftGlanceView" pc="268436462" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="18" lineNum="15" parent="globals/RoofLiftGlanceView" pc="268436497" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="18" lineNum="16" parent="globals/RoofLiftGlanceView" pc="268436499" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="18" lineNum="17" parent="globals/RoofLiftGlanceView" pc="268436518" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="19" lineNum="11" parent="globals/RoofLiftGlanceView" pc="268436538" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="19" lineNum="12" parent="globals/RoofLiftGlanceView" pc="268436540" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="20" lineNum="24" parent="globals/RoofLiftGlanceView" pc="268436559" symbol="interpolateColor"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="20" lineNum="25" parent="globals/RoofLiftGlanceView" pc="268436563" symbol="interpolateColor"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="20" lineNum="26" parent="globals/RoofLiftGlanceView" pc="268436580" symbol="interpolateColor"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="20" lineNum="27" parent="globals/RoofLiftGlanceView" pc="268436597" symbol="interpolateColor"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="20" lineNum="29" parent="globals/RoofLiftGlanceView" pc="268436607" symbol="interpolateColor"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="20" lineNum="30" parent="globals/RoofLiftGlanceView" pc="268436624" symbol="interpolateColor"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="20" lineNum="31" parent="globals/RoofLiftGlanceView" pc="268436641" symbol="interpolateColor"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="20" lineNum="33" parent="globals/RoofLiftGlanceView" pc="268436651" symbol="interpolateColor"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="20" lineNum="34" parent="globals/RoofLiftGlanceView" pc="268436664" symbol="interpolateColor"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="20" lineNum="35" parent="globals/RoofLiftGlanceView" pc="268436677" symbol="interpolateColor"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="20" lineNum="37" parent="globals/RoofLiftGlanceView" pc="268436690" symbol="interpolateColor"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="40" parent="globals/RoofLiftGlanceView" pc="268436717" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="41" parent="globals/RoofLiftGlanceView" pc="268436721" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="42" parent="globals/RoofLiftGlanceView" pc="268436728" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="43" parent="globals/RoofLiftGlanceView" pc="268436750" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="45" parent="globals/RoofLiftGlanceView" pc="268436784" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="46" parent="globals/RoofLiftGlanceView" pc="268436799" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="47" parent="globals/RoofLiftGlanceView" pc="268436806" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="49" parent="globals/RoofLiftGlanceView" pc="268436816" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="50" parent="globals/RoofLiftGlanceView" pc="268436823" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="52" parent="globals/RoofLiftGlanceView" pc="268436853" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="59" parent="globals/RoofLiftGlanceView" pc="268436913" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="61" parent="globals/RoofLiftGlanceView" pc="268436920" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="63" parent="globals/RoofLiftGlanceView" pc="268436942" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="65" parent="globals/RoofLiftGlanceView" pc="268436987" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="66" parent="globals/RoofLiftGlanceView" pc="268436994" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="68" parent="globals/RoofLiftGlanceView" pc="268437001" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="69" parent="globals/RoofLiftGlanceView" pc="268437008" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="71" parent="globals/RoofLiftGlanceView" pc="268437015" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="72" parent="globals/RoofLiftGlanceView" pc="268437028" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="74" parent="globals/RoofLiftGlanceView" pc="268437044" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="75" parent="globals/RoofLiftGlanceView" pc="268437059" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="76" parent="globals/RoofLiftGlanceView" pc="268437067" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="79" parent="globals/RoofLiftGlanceView" pc="268437077" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="82" parent="globals/RoofLiftGlanceView" pc="268437084" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="83" parent="globals/RoofLiftGlanceView" pc="268437106" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="85" parent="globals/RoofLiftGlanceView" pc="268437138" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="86" parent="globals/RoofLiftGlanceView" pc="268437189" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="90" parent="globals/RoofLiftGlanceView" pc="268437212" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="91" parent="globals/RoofLiftGlanceView" pc="268437225" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="92" parent="globals/RoofLiftGlanceView" pc="268437232" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="93" parent="globals/RoofLiftGlanceView" pc="268437239" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="94" parent="globals/RoofLiftGlanceView" pc="268437258" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="97" parent="globals/RoofLiftGlanceView" pc="268437299" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="98" parent="globals/RoofLiftGlanceView" pc="268437366" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="99" parent="globals/RoofLiftGlanceView" pc="268437398" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="100" parent="globals/RoofLiftGlanceView" pc="268437414" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="101" parent="globals/RoofLiftGlanceView" pc="268437436" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftGlanceView.mc" id="21" lineNum="102" parent="globals/RoofLiftGlanceView" pc="268437470" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/bin/gen/006-B3703-00/source/Rez.mcgen" id="22" lineNum="7" parent="globals/Rez" pc="268437502" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="23" lineNum="7" parent="globals/RookLiftView" pc="268437526" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="25" lineNum="25" parent="globals/RookLiftView" pc="268437545" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="25" lineNum="26" parent="globals/RookLiftView" pc="268437547" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="25" lineNum="27" parent="globals/RookLiftView" pc="268437581" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="26" lineNum="17" parent="globals/RookLiftView" pc="268437616" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="26" lineNum="18" parent="globals/RookLiftView" pc="268437618" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="26" lineNum="19" parent="globals/RookLiftView" pc="268437637" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="28" lineNum="10" parent="globals/RookLiftView" pc="268437657" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="28" lineNum="11" parent="globals/RookLiftView" pc="268437659" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="28" lineNum="12" parent="globals/RookLiftView" pc="268437677" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="28" lineNum="13" parent="globals/RookLiftView" pc="268437711" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="30" lineNum="31" parent="globals/RookLiftView" pc="268437746" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="30" lineNum="32" parent="globals/RookLiftView" pc="268437750" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="30" lineNum="34" parent="globals/RookLiftView" pc="268437762" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="30" lineNum="35" parent="globals/RookLiftView" pc="268437769" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" id="30" lineNum="37" parent="globals/RookLiftView" pc="268437791" symbol="onUpdate"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry field="true" id="13" symbol="canDoBG"/>
 <entry id="8390789" method="true" symbol="onAppUpdate"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="11" object="true" symbol="RookLiftApp"/>
 <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-<entry id="11" object="true" symbol="bgwfApp"/>
 <entry field="true" id="14" symbol="inBackground"/>
 <entry id="16" method="true" symbol="getRandomInteger"/>
-<entry id="10" object="true" symbol="BgbgServiceDelegate"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry id="12" object="true" symbol="bgwfView"/>
-<entry field="true" id="20" symbol="AppName"/>
+<entry field="true" id="24" symbol="AppName"/>
+<entry id="9" object="true" symbol="BgServiceDelegate"/>
 <entry id="8390788" method="true" symbol="onAppInstall"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8389594" symbol="headers"/>
@@ -109,17 +153,18 @@
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry field="true" id="8389067" symbol="height"/>
 <entry id="8390169" method="true" symbol="getServiceDelegate"/>
-<entry id="18" module="true" symbol="Menus"/>
+<entry id="22" module="true" symbol="Menus"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
 <entry field="true" id="8389066" symbol="width"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-<entry id="15" method="true" symbol="responseCallback"/>
+<entry id="17" method="true" symbol="responseCallback"/>
 <entry id="8388637" module="true" symbol="Communications"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
 <entry id="8390170" method="true" symbol="onBackgroundData"/>
 <entry id="8389844" symbol="responseType"/>
+<entry id="10" object="true" symbol="RoofLiftGlanceView"/>
 <entry id="8388786" method="true" symbol="method"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
@@ -127,10 +172,10 @@
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="19" symbol="LauncherIcon"/>
+<entry id="12" object="true" symbol="RookLiftView"/>
+<entry field="true" id="23" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="9" object="true" symbol="BGGlanceView"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8390146" module="true" symbol="Background"/>
@@ -139,163 +184,213 @@
 <entry field="true" id="8391717" symbol="level"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="17" module="true" symbol="Layouts"/>
+<entry id="21" module="true" symbol="Layouts"/>
+<entry id="20" method="true" symbol="interpolateColor"/>
 <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry field="true" id="18" symbol="deviceHeight"/>
 <entry id="8391457" method="true" symbol="getGlanceView"/>
 <entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="19" symbol="deviceWidth"/>
+<entry field="true" id="15" symbol="metrics"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435609" name="url" stackId="1" startPc="268435483"/>
-<entry endPc="268435609" name="params" stackId="2" startPc="268435483"/>
-<entry endPc="268435609" name="options" stackId="3" startPc="268435483"/>
-<entry arg="true" endPc="268435759" name="responseCode" stackId="1" startPc="268435646"/>
-<entry arg="true" endPc="268435759" name="data" stackId="2" startPc="268435646"/>
-<entry endPc="268435861" name="randomNumber" stackId="1" startPc="268435824"/>
-<entry endPc="268435861" name="adjustedNumber" stackId="2" startPc="268435824"/>
-<entry arg="true" endPc="268435885" name="state" stackId="1" startPc="268435862"/>
-<entry arg="true" endPc="268436245" name="data" stackId="1" startPc="268436140"/>
-<entry arg="true" endPc="268436362" name="state" stackId="1" startPc="268436289"/>
-<entry arg="true" endPc="268436467" name="dc" stackId="1" startPc="268436406"/>
-<entry arg="true" endPc="268436527" name="dc" stackId="1" startPc="268436487"/>
-<entry endPc="268436610" name="temp" stackId="1" startPc="268436532"/>
-<entry arg="true" endPc="268436961" name="dc" stackId="1" startPc="268436612"/>
+<entry endPc="268435561" name="randomNumber" stackId="1" startPc="268435524"/>
+<entry endPc="268435561" name="adjustedNumber" stackId="2" startPc="268435524"/>
+<entry arg="true" endPc="268435585" name="state" stackId="1" startPc="268435562"/>
+<entry arg="true" endPc="268435988" name="data" stackId="1" startPc="268435819"/>
+<entry arg="true" endPc="268436140" name="state" stackId="1" startPc="268436032"/>
+<entry endPc="268436290" name="url" stackId="1" startPc="268436164"/>
+<entry endPc="268436290" name="params" stackId="2" startPc="268436164"/>
+<entry endPc="268436290" name="options" stackId="3" startPc="268436164"/>
+<entry arg="true" endPc="268436440" name="responseCode" stackId="1" startPc="268436327"/>
+<entry arg="true" endPc="268436440" name="data" stackId="2" startPc="268436327"/>
+<entry arg="true" endPc="268436537" name="dc" stackId="1" startPc="268436497"/>
+<entry arg="true" endPc="268436716" name="startColor" stackId="1" startPc="268436559"/>
+<entry arg="true" endPc="268436716" name="endColor" stackId="2" startPc="268436559"/>
+<entry arg="true" endPc="268436716" name="fraction" stackId="3" startPc="268436559"/>
+<entry endPc="268436716" name="startRed" stackId="4" startPc="268436563"/>
+<entry endPc="268436716" name="startGreen" stackId="5" startPc="268436563"/>
+<entry endPc="268436716" name="startBlue" stackId="6" startPc="268436563"/>
+<entry endPc="268436716" name="endRed" stackId="7" startPc="268436563"/>
+<entry endPc="268436716" name="endGreen" stackId="8" startPc="268436563"/>
+<entry endPc="268436716" name="endBlue" stackId="9" startPc="268436563"/>
+<entry endPc="268436716" name="red" stackId="10" startPc="268436563"/>
+<entry endPc="268436716" name="green" stackId="11" startPc="268436563"/>
+<entry endPc="268436716" name="blue" stackId="12" startPc="268436563"/>
+<entry arg="true" endPc="268437501" name="dc" stackId="1" startPc="268436717"/>
+<entry endPc="268437500" name="font" stackId="2" startPc="268436721"/>
+<entry endPc="268437500" name="fontHeight" stackId="3" startPc="268436721"/>
+<entry endPc="268437500" name="graphicsHeight" stackId="4" startPc="268436721"/>
+<entry endPc="268437500" name="graphicsWidth" stackId="5" startPc="268436721"/>
+<entry endPc="268437500" name="maxStages" stackId="6" startPc="268436721"/>
+<entry endPc="268437500" name="currStage" stackId="7" startPc="268436721"/>
+<entry endPc="268437500" name="colors" stackId="8" startPc="268436721"/>
+<entry endPc="268437500" name="grayColor" stackId="9" startPc="268436721"/>
+<entry endPc="268437500" name="margin" stackId="10" startPc="268436721"/>
+<entry endPc="268437500" name="x" stackId="11" startPc="268436721"/>
+<entry endPc="268437500" name="y" stackId="12" startPc="268436721"/>
+<entry endPc="268437500" name="rectGap" stackId="13" startPc="268436721"/>
+<entry endPc="268437500" name="rectHeightMargin" stackId="14" startPc="268436721"/>
+<entry endPc="268437500" name="rectHeight" stackId="15" startPc="268436721"/>
+<entry endPc="268437500" name="rectWidth" stackId="16" startPc="268436721"/>
+<entry endPc="268437211" name="stage" stackId="17" startPc="268437059"/>
+<entry endPc="268437500" name="location" stackId="18" startPc="268436721"/>
+<entry endPc="268437500" name="meterWidth" stackId="19" startPc="268436721"/>
+<entry endPc="268437500" name="level_str" stackId="20" startPc="268436721"/>
+<entry endPc="268437500" name="command_str" stackId="21" startPc="268436721"/>
+<entry arg="true" endPc="268437656" name="dc" stackId="1" startPc="268437616"/>
+<entry arg="true" endPc="268437846" name="dc" stackId="1" startPc="268437746"/>
+<entry endPc="268437845" name="font" stackId="2" startPc="268437750"/>
 </localVars>
 <annotations>
-<annotationEntry annotation="glance" class="BGGlanceView" module="globals" symbol="initialize"/>
+<annotationEntry annotation="glance" class="RookLiftApp" module="globals" symbol="getRandomInteger"/>
+<annotationEntry annotation="background" class="RookLiftApp" module="globals" symbol="getRandomInteger"/>
+<annotationEntry annotation="glance" class="RookLiftApp" module="globals" symbol="getServiceDelegate"/>
+<annotationEntry annotation="background" class="RookLiftApp" module="globals" symbol="getServiceDelegate"/>
+<annotationEntry annotation="glance" class="RoofLiftGlanceView" module="globals" symbol="onLayout"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
-<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="getRandomInteger"/>
-<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="getRandomInteger"/>
-<annotationEntry annotation="background" class="BgbgServiceDelegate" module="globals" symbol="responseCallback"/>
-<annotationEntry annotation="glance" class="BGGlanceView" module="globals" symbol="onUpdate"/>
+<annotationEntry annotation="glance" class="RookLiftApp" module="globals" symbol="onAppUpdate"/>
+<annotationEntry annotation="background" class="RookLiftApp" module="globals" symbol="onAppUpdate"/>
+<annotationEntry annotation="glance" class="RookLiftApp" module="globals" symbol="onAppInstall"/>
+<annotationEntry annotation="background" class="RookLiftApp" module="globals" symbol="onAppInstall"/>
+<annotationEntry annotation="glance" class="RoofLiftGlanceView" module="globals" symbol="deviceHeight"/>
+<annotationEntry annotation="glance" class="RoofLiftGlanceView" module="globals" symbol="initialize"/>
+<annotationEntry annotation="glance" class="RookLiftApp" module="globals" symbol="onStart"/>
+<annotationEntry annotation="background" class="RookLiftApp" module="globals" symbol="onStart"/>
+<annotationEntry annotation="background" class="BgServiceDelegate" module="globals" symbol="onTemporalEvent"/>
+<annotationEntry annotation="glance" class="RoofLiftGlanceView" module="globals" symbol="deviceWidth"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
-<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="getInitialView"/>
-<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="getInitialView"/>
-<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="onAppUpdate"/>
-<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="onAppUpdate"/>
-<annotationEntry annotation="background" class="BgbgServiceDelegate" module="globals" symbol="onTemporalEvent"/>
-<annotationEntry annotation="glance" class="BGGlanceView" module="globals" symbol="onLayout"/>
-<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="initialize"/>
-<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="initialize"/>
-<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="onAppInstall"/>
-<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="onAppInstall"/>
-<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="onStart"/>
-<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="onStart"/>
-<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="onStop"/>
-<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="onStop"/>
-<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="getGlanceView"/>
-<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="getGlanceView"/>
-<annotationEntry annotation="background" class="BgbgServiceDelegate" module="globals" symbol="initialize"/>
-<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="getServiceDelegate"/>
-<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="getServiceDelegate"/>
-<annotationEntry annotation="glance" class="bgwfApp" module="globals" symbol="onBackgroundData"/>
-<annotationEntry annotation="background" class="bgwfApp" module="globals" symbol="onBackgroundData"/>
+<annotationEntry annotation="glance" class="RoofLiftGlanceView" module="globals" symbol="onUpdate"/>
+<annotationEntry annotation="glance" class="RookLiftApp" module="globals" symbol="getInitialView"/>
+<annotationEntry annotation="background" class="RookLiftApp" module="globals" symbol="getInitialView"/>
+<annotationEntry annotation="glance" class="RookLiftApp" module="globals" symbol="getGlanceView"/>
+<annotationEntry annotation="background" class="RookLiftApp" module="globals" symbol="getGlanceView"/>
+<annotationEntry annotation="glance" class="RookLiftApp" module="globals" symbol="onStop"/>
+<annotationEntry annotation="background" class="RookLiftApp" module="globals" symbol="onStop"/>
+<annotationEntry annotation="background" class="BgServiceDelegate" module="globals" symbol="initialize"/>
+<annotationEntry annotation="background" class="BgServiceDelegate" module="globals" symbol="responseCallback"/>
+<annotationEntry annotation="glance" class="RoofLiftGlanceView" module="globals" symbol="interpolateColor"/>
+<annotationEntry annotation="glance" class="RookLiftApp" module="globals" symbol="onBackgroundData"/>
+<annotationEntry annotation="background" class="RookLiftApp" module="globals" symbol="onBackgroundData"/>
+<annotationEntry annotation="glance" class="RoofLiftGlanceView" module="globals" symbol="onShow"/>
+<annotationEntry annotation="glance" class="RookLiftApp" module="globals" symbol="initialize"/>
+<annotationEntry annotation="background" class="RookLiftApp" module="globals" symbol="initialize"/>
 </annotations>
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry label="globals/BgbgServiceDelegate" offset="190" parentId="globals" symbolId="BgbgServiceDelegate" type="class"/>
-<dataEntry label="globals/bgwfApp" offset="253" parentId="globals" symbolId="bgwfApp" type="class"/>
-<dataEntry label="globals/BGGlanceView" offset="950" parentId="globals" symbolId="BGGlanceView" type="class"/>
-<dataEntry label="globals/bgwfView" offset="1112" parentId="globals" symbolId="bgwfView" type="class"/>
-<dataEntry label="globals/Rez" offset="1223" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/Rez/Drawables" offset="1302" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="1341" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="1372" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="1403" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="1434" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="1473" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/RookLiftApp" offset="198" parentId="globals" symbolId="RookLiftApp" type="class"/>
+<dataEntry label="globals/BgServiceDelegate" offset="317" parentId="globals" symbolId="BgServiceDelegate" type="class"/>
+<dataEntry label="globals/RoofLiftGlanceView" offset="975" parentId="globals" symbolId="RoofLiftGlanceView" type="class"/>
+<dataEntry label="globals/Rez" offset="1258" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/RookLiftView" offset="1337" parentId="globals" symbolId="RookLiftView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1448" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1487" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="1518" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1549" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1580" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1619" parentId="Rez" symbolId="JsonData" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
-<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="BgbgServiceDelegate" startPc="268435460">
+<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="RookLiftApp" startPc="268435460">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435610" name="onTemporalEvent" parent="BgbgServiceDelegate" startPc="268435479">
+<functionEntry accessMode="public" endPc="268435519" name="onAppUpdate" parent="RookLiftApp" startPc="268435479">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435645" name="initialize" parent="BgbgServiceDelegate" startPc="268435611">
+<functionEntry accessMode="public" endPc="268435561" name="getRandomInteger" parent="RookLiftApp" startPc="268435520">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435759" name="responseCallback" parent="BgbgServiceDelegate" startPc="268435646">
+<functionEntry accessMode="public" endPc="268435585" name="onStart" parent="RookLiftApp" startPc="268435562">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435609" name="onAppInstall" parent="RookLiftApp" startPc="268435586">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435652" name="getServiceDelegate" parent="RookLiftApp" startPc="268435610">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435797" name="getInitialView" parent="RookLiftApp" startPc="268435653">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435818" name="initialize" parent="RookLiftApp" startPc="268435798">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435988" name="onBackgroundData" parent="RookLiftApp" startPc="268435819">
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436031" name="getGlanceView" parent="RookLiftApp" startPc="268435989">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436140" name="onStop" parent="RookLiftApp" startPc="268436032">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436159" name="&lt;init&gt;" parent="BgServiceDelegate" startPc="268436141">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436291" name="onTemporalEvent" parent="BgServiceDelegate" startPc="268436160">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436326" name="initialize" parent="BgServiceDelegate" startPc="268436292">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436440" name="responseCallback" parent="BgServiceDelegate" startPc="268436327">
 <param id="responseCode"/>
 <param id="data"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435778" name="&lt;init&gt;" parent="bgwfApp" startPc="268435760">
+<functionEntry accessMode="public" endPc="268436459" name="&lt;init&gt;" parent="RoofLiftGlanceView" startPc="268436441">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435819" name="onAppUpdate" parent="bgwfApp" startPc="268435779">
+<functionEntry accessMode="public" endPc="268436496" name="onShow" parent="RoofLiftGlanceView" startPc="268436460">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435861" name="getRandomInteger" parent="bgwfApp" startPc="268435820">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435885" name="onStart" parent="bgwfApp" startPc="268435862">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435909" name="onAppInstall" parent="bgwfApp" startPc="268435886">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435952" name="getServiceDelegate" parent="bgwfApp" startPc="268435910">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436118" name="getInitialView" parent="bgwfApp" startPc="268435953">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436139" name="initialize" parent="bgwfApp" startPc="268436119">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436245" name="onBackgroundData" parent="bgwfApp" startPc="268436140">
-<param id="data"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436288" name="getGlanceView" parent="bgwfApp" startPc="268436246">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436362" name="onStop" parent="bgwfApp" startPc="268436289">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436381" name="&lt;init&gt;" parent="BGGlanceView" startPc="268436363">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436384" name="onLayout" parent="BGGlanceView" startPc="268436382">
+<functionEntry accessMode="public" endPc="268436537" name="onLayout" parent="RoofLiftGlanceView" startPc="268436497">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436405" name="initialize" parent="BGGlanceView" startPc="268436385">
+<functionEntry accessMode="public" endPc="268436558" name="initialize" parent="RoofLiftGlanceView" startPc="268436538">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436467" name="onUpdate" parent="BGGlanceView" startPc="268436406">
+<functionEntry accessMode="public" endPc="268436716" name="interpolateColor" parent="RoofLiftGlanceView" startPc="268436559">
+<param id="startColor"/>
+<param id="endColor"/>
+<param id="fraction"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437501" name="onUpdate" parent="RoofLiftGlanceView" startPc="268436717">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436486" name="&lt;init&gt;" parent="bgwfView" startPc="268436468">
+<functionEntry accessMode="public" endPc="268437525" name="&lt;init&gt;" parent="Rez" startPc="268437502">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onExitSleep" parent="bgwfView">
+<functionEntry accessMode="public" endPc="268437544" name="&lt;init&gt;" parent="RookLiftView" startPc="268437526">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onShow" parent="bgwfView">
+<functionEntry accessMode="public" name="onExitSleep" parent="RookLiftView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436527" name="onLayout" parent="bgwfView" startPc="268436487">
+<functionEntry accessMode="public" endPc="268437615" name="onShow" parent="RookLiftView" startPc="268437545">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437656" name="onLayout" parent="RookLiftView" startPc="268437616">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onEnterSleep" parent="bgwfView">
+<functionEntry accessMode="public" name="onEnterSleep" parent="RookLiftView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436611" name="initialize" parent="bgwfView" startPc="268436528">
+<functionEntry accessMode="public" endPc="268437745" name="initialize" parent="RookLiftView" startPc="268437657">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onHide" parent="bgwfView">
+<functionEntry accessMode="public" name="onHide" parent="RookLiftView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436961" name="onUpdate" parent="bgwfView" startPc="268436612">
+<functionEntry accessMode="public" endPc="268437846" name="onUpdate" parent="RookLiftView" startPc="268437746">
 <param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436985" name="&lt;init&gt;" parent="Rez" startPc="268436962">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">

@@ -8,16 +8,14 @@ import Toybox.Lang;
 // is triggered by the system.
 
 (:background :background_app)
-class BgbgServiceDelegate extends Toybox.System.ServiceDelegate {
+class BgServiceDelegate extends Toybox.System.ServiceDelegate {
 
 	function initialize() {
 		System.ServiceDelegate.initialize();
 		inBackground=true;				//trick for onExit()
-        // Background.exit("this works");
 	}
 
 	function onTemporalEvent() as Void {
-		// var url = "https://localhost:8443/";
         var url = "https://api.jsonbin.io/v3/b/65cc1fd01f5677401f2ef548";
 
         var params = {};
@@ -35,9 +33,6 @@ class BgbgServiceDelegate extends Toybox.System.ServiceDelegate {
     }
 
     function responseCallback(responseCode as Number, data as Dictionary?) as Void {
-        // Do stuff with the response data here and send the data
-        // payload back to the app that originated the background
-        // process.
 		if (responseCode == 200) {
 			System.println("Response: " + data);
             Background.exit(data.get("record"));

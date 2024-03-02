@@ -1,18 +1,19 @@
 using Toybox.Application as App;
 using Toybox.Background;
 using Toybox.System as Sys;
-import Toybox.WatchUi;
-using Toybox.WatchUi as Ui;
 using Toybox.Time as Time;
+import Toybox.WatchUi;
 import Toybox.Lang;
 
 // info about whats happening with the background process
-var level = 1;
+var level = 0.6;
+var metrics = [];
+
 var canDoBG=false;
 var inBackground=false;
 
 (:background)
-class bgwfApp extends App.AppBase {
+class RookLiftApp extends App.AppBase {
 
     function initialize() {
         AppBase.initialize();
@@ -28,13 +29,14 @@ class bgwfApp extends App.AppBase {
     	//moved from onHide() - using the "is this background" trick
     	if(!inBackground) {
             App.Storage.setValue("level", level);
+            App.Storage.setValue("metrics", metrics);
     	} else {
     		Sys.println("onStop");
     	}
     }
 
     (:glance) function getGlanceView() {
-        return [new BGGlanceView()];
+        return [ new RoofLiftGlanceView() ];
     }
 
     function getRandomInteger() {
@@ -48,7 +50,6 @@ class bgwfApp extends App.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-    	Sys.println("getInitialView");
 		//register for temporal events if they are supported
     	if(Toybox.System has :ServiceDelegate) {
     		canDoBG=true;
@@ -56,7 +57,7 @@ class bgwfApp extends App.AppBase {
     	} else {
     		Sys.println("****background not available on this device****");
     	}
-        return [ new bgwfView() ];
+        return [ new RookLiftView() ];
     }
 
     function onBackgroundData(data) {
@@ -64,17 +65,22 @@ class bgwfApp extends App.AppBase {
             return;
         }
         // from background process
-        // level = data.get("level");
+        level = data.get("level");
+        metrics = data.get("metrics");
 
         // for development
-        level = getRandomInteger();
+        // level = getRandomInteger();
+        // metrics = "Metrics: " + level;
 
         App.Storage.setValue("level", level);
-        Ui.requestUpdate();
+        App.Storage.setValue("metrics", metrics);
+
+        // update both the glance view and app view
+        WatchUi.requestUpdate();
     }
 
     function getServiceDelegate(){
-        return [new BgbgServiceDelegate()];
+        return [new BgServiceDelegate()];
     }
 
     function onAppInstall() {

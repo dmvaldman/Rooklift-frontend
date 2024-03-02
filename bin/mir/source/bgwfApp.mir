@@ -7,99 +7,106 @@ using Toybox.System as :Sys;
 [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 4; ]
 import Toybox.WatchUi;
 [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 5; ]
-using Toybox.WatchUi as :Ui;
-[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 6; ]
 using Toybox.Time as :Time;
-[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 7; ]
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 6; ]
 import Toybox.Lang;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 9; @position = 4; ]
+var level = 0.6;
 [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 10; @position = 4; ]
-var level = 1;
-[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 11; @position = 4; ]
-var canDoBG = false;
+var metrics = "";
 [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 12; @position = 4; ]
+var canDoBG = false;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 13; @position = 4; ]
 var inBackground = false;
-[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 14; background = true; ]
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 15; background = true; ]
 class bgwfApp extends App.AppBase{
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 15; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 16; ]
     <init> {
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 15; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 16; ]
     static
     <init> {
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 17; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 18; ]
     function initialize() as Void {
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_17_26_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 18 8 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_18_26_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 19 8 ]
         %tmp.2 = getv ? :AppBase;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_17_26_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_18_26_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 22; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 23; ]
     function onStart(state) {
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_22_28_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 23 2 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_23_28_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 24 2 ]
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :println;
         %tmp.3 = "onStart";
         invoke %tmp.1 %tmp.2(%tmp.3);
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_22_28_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_23_28_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 27; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 28; ]
     function onStop(state) {
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_27_27_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 29 5 ]
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_29_5_if_stmt:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_28_27_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 30 5 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_30_5_if_stmt:
         %tmp.2 = getv ? :inBackground;
         %tmp.3 = not %tmp.2;
-        bf %tmp.3 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_29_5_if_false;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_29_5_if_true:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_29_23_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 30 12 ]
+        bf %tmp.3 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_30_5_if_false;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_30_5_if_true:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_30_23_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 31 12 ]
         %tmp.4 = getm $.Toybox.Application;
         %tmp.5 = getv %tmp.4 :Storage;
         %tmp.6 = getv function %tmp.5 :setValue;
         %tmp.7 = "level";
         %tmp.9 = getv ? :level;
         invoke %tmp.5 %tmp.6(%tmp.7, %tmp.9);
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_29_23_stop:
-        goto @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_29_5_if_end;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_29_5_if_false:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_31_12_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 32 6 ]
-        %tmp.10 = getm $.Toybox.System;
-        %tmp.11 = getv function %tmp.10 :println;
-        %tmp.12 = "onStop";
-        invoke %tmp.10 %tmp.11(%tmp.12);
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_31_12_stop:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_29_5_if_end:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_27_27_stop:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 32 12 ]
+        %tmp.10 = getm $.Toybox.Application;
+        %tmp.11 = getv %tmp.10 :Storage;
+        %tmp.12 = getv function %tmp.11 :setValue;
+        %tmp.13 = "metrics";
+        %tmp.15 = getv ? :metrics;
+        invoke %tmp.11 %tmp.12(%tmp.13, %tmp.15);
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_30_23_stop:
+        goto @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_30_5_if_end;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_30_5_if_false:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_33_12_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 34 6 ]
+        %tmp.16 = getm $.Toybox.System;
+        %tmp.17 = getv function %tmp.16 :println;
+        %tmp.18 = "onStop";
+        invoke %tmp.16 %tmp.17(%tmp.18);
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_33_12_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_30_5_if_end:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_28_27_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 36; glance = true; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 38; glance = true; ]
     function getGlanceView() {
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_36_39_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 37 8 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_38_39_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 39 8 ]
         %tmp.1 = newa 1;
         %tmp.5 = getv ? :BGGlanceView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_36_39_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_38_39_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 40; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 42; ]
     function getRandomInteger() {
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_40_32_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 41 8 ]
-        [ "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_40_32_start" "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_40_32_stop" ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_42_32_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 43 8 ]
+        [ "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_42_32_start" "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_42_32_stop" ]
         %randomNumber.1 = local;
         %tmp.2 = getv ? :Math;
         %tmp.3 = getv function %tmp.2 :rand;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %randomNumber.1 %tmp.4;
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 44 8 ]
-        [ "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_40_32_start" "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_40_32_stop" ]
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 46 8 ]
+        [ "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_42_32_start" "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_42_32_stop" ]
         %adjustedNumber.2 = local;
         %tmp.6 = lgetv %randomNumber.1;
         %tmp.7 = 6;
@@ -107,32 +114,32 @@ _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_40_32_start:
         %tmp.9 = 1;
         %tmp.10 = add %tmp.8 %tmp.9;
         lputv %adjustedNumber.2 %tmp.10;
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 46 8 ]
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 48 8 ]
         %tmp.12 = lgetv %adjustedNumber.2;
         ret %tmp.12;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_40_32_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_42_32_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 50; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 52; ]
     function getInitialView() {
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_50_30_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 51 5 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_52_30_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 53 5 ]
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :println;
         %tmp.3 = "getInitialView";
         invoke %tmp.1 %tmp.2(%tmp.3);
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 53 5 ]
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_53_5_if_stmt:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 55 5 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_55_5_if_stmt:
         %tmp.5 = getv ? :Toybox;
         %tmp.6 = getv %tmp.5 :System;
         %tmp.8 = const :ServiceDelegate;
         %tmp.9 = canhazplz %tmp.6 %tmp.8;
-        bf %tmp.9 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_53_5_if_false;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_53_5_if_true:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_53_44_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 54 6 ]
+        bf %tmp.9 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_55_5_if_false;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_55_5_if_true:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_55_44_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 56 6 ]
         %tmp.10 = true;
         putv self :canDoBG %tmp.10;
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 55 6 ]
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 57 6 ]
         %tmp.11 = getm $.Toybox.Background;
         %tmp.12 = getv function %tmp.11 :registerForTemporalEvent;
         %tmp.15 = getm $.Toybox.Time;
@@ -142,38 +149,38 @@ _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_53_44_start:
         %tmp.19 = mul %tmp.17 %tmp.18;
         %tmp.13 = newc %tmp.16 (%tmp.19);
         invoke %tmp.11 %tmp.12(%tmp.13);
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_53_44_stop:
-        goto @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_53_5_if_end;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_53_5_if_false:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_56_12_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 57 6 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_55_44_stop:
+        goto @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_55_5_if_end;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_55_5_if_false:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_58_12_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 59 6 ]
         %tmp.20 = getm $.Toybox.System;
         %tmp.21 = getv function %tmp.20 :println;
         %tmp.22 = "****background not available on this device****";
         invoke %tmp.20 %tmp.21(%tmp.22);
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_56_12_stop:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_53_5_if_end:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 59 8 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_58_12_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_55_5_if_end:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 61 8 ]
         %tmp.23 = newa 1;
         %tmp.27 = getv ? :bgwfView;
         %tmp.24 = newc %tmp.27 ();
         %tmp.28 = dup %tmp.23;
         %tmp.29 = aputv %tmp.28 0 %tmp.24;
         ret %tmp.29;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_50_30_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_52_30_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 62; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 64; ]
     function onBackgroundData(data) {
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_62_36_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 63 8 ]
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_8_if_stmt:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_12_begin:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_64_36_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 65 8 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_8_if_stmt:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_12_begin:
         %tmp.2 = lgetv %data;
         %tmp.3 = null;
         %tmp.4 = eq %tmp.2 %tmp.3;
         %tmp.5 = dup %tmp.4;
-        bt %tmp.5 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_28_end;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_28_false:
+        bt %tmp.5 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_28_end;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_28_false:
         %tmp.7 = lgetv %data;
         %tmp.8 = as %tmp.7 { (!Null) };
         %tmp.9 = getm $.Toybox.Lang;
@@ -182,70 +189,84 @@ _Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_28_false:
         %tmp.12 = not %tmp.11;
         %tmp.13 = or %tmp.4 %tmp.12;
         push %tmp.13;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_28_end:
-        %tmp.14 = phi [%tmp.5 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_12_begin] [%tmp.13 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_28_false] [%tmp.14 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_28_end];
-        bf %tmp.14 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_8_if_end;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_8_if_true:
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_64_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 64 12 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_28_end:
+        %tmp.14 = phi [%tmp.5 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_12_begin] [%tmp.13 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_28_false] [%tmp.14 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_28_end];
+        bf %tmp.14 @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_8_if_end;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_8_if_true:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_64_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 66 12 ]
         ret ?;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_64_stop:
-        goto @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_8_if_end;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_63_8_if_end:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_64_stop:
+        goto @_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_8_if_end;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_65_8_if_end:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 69 8 ]
+        %tmp.15 = lgetv %data;
+        %tmp.16 = getv function %tmp.15 :get;
+        %tmp.17 = "level";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        putv self :level %tmp.18;
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 70 8 ]
-        %tmp.15 = self;
-        %tmp.16 = getv function %tmp.15 :getRandomInteger;
-        %tmp.17 = invoke %tmp.15 %tmp.16();
-        putv self :level %tmp.17;
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 72 8 ]
-        %tmp.18 = getm $.Toybox.Application;
-        %tmp.19 = getv %tmp.18 :Storage;
-        %tmp.20 = getv function %tmp.19 :setValue;
-        %tmp.21 = "level";
-        %tmp.23 = getv ? :level;
-        invoke %tmp.19 %tmp.20(%tmp.21, %tmp.23);
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 73 8 ]
-        %tmp.24 = getm $.Toybox.WatchUi;
-        %tmp.25 = getv function %tmp.24 :requestUpdate;
-        invoke %tmp.24 %tmp.25();
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_62_36_stop:
-    }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 76; ]
-    function getServiceDelegate() {
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_76_33_start:
+        %tmp.19 = lgetv %data;
+        %tmp.20 = getv function %tmp.19 :get;
+        %tmp.21 = "metrics";
+        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
+        putv self :metrics %tmp.22;
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 76 8 ]
+        %tmp.23 = getm $.Toybox.Application;
+        %tmp.24 = getv %tmp.23 :Storage;
+        %tmp.25 = getv function %tmp.24 :setValue;
+        %tmp.26 = "level";
+        %tmp.28 = getv ? :level;
+        invoke %tmp.24 %tmp.25(%tmp.26, %tmp.28);
 [ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 77 8 ]
+        %tmp.29 = getm $.Toybox.Application;
+        %tmp.30 = getv %tmp.29 :Storage;
+        %tmp.31 = getv function %tmp.30 :setValue;
+        %tmp.32 = "metrics";
+        %tmp.34 = getv ? :metrics;
+        invoke %tmp.30 %tmp.31(%tmp.32, %tmp.34);
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 80 8 ]
+        %tmp.35 = getm $.Toybox.WatchUi;
+        %tmp.36 = getv function %tmp.35 :requestUpdate;
+        invoke %tmp.35 %tmp.36();
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_64_36_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 83; ]
+    function getServiceDelegate() {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_83_33_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 84 8 ]
         %tmp.1 = newa 1;
         %tmp.5 = getv ? :BgbgServiceDelegate;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_76_33_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_83_33_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 80; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 87; ]
     function onAppInstall() {
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_80_28_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 81 5 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_87_28_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 88 5 ]
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :println;
         %tmp.3 = "onAppInstall";
         invoke %tmp.1 %tmp.2(%tmp.3);
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_80_28_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_87_28_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 84; ]
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 91; ]
     function onAppUpdate() {
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_84_27_start:
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 85 5 ]
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_91_27_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 92 5 ]
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :println;
         %tmp.3 = "onAppUpdate";
         invoke %tmp.1 %tmp.2(%tmp.3);
-[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 86 8 ]
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc" 93 8 ]
         %tmp.4 = getm $.Toybox.Background;
         %tmp.5 = getv function %tmp.4 :exit;
         %tmp.6 = null;
         invoke %tmp.4 %tmp.5(%tmp.6);
-_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_84_27_stop:
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_bgwfApp_mc_91_27_stop:
     }
 }
 [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/bgwfApp.mc"; @line = 1; ]

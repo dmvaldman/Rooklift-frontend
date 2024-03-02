@@ -1,0 +1,96 @@
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 1; ]
+import Toybox.WatchUi;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 2; ]
+using Toybox.Graphics;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 3; ]
+using Toybox.System as :Sys;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 4; ]
+using Toybox.Lang as :Lang;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 5; ]
+using Toybox.Application as :App;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 7; ]
+class view2 extends WatchUi.View{
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 9; @position = 8; ]
+    var width;
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 9; @position = 15; ]
+    var height;
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 11; ]
+    function initialize() as Void {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_view2_mc_11_26_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc" 12 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_view2_mc_11_26_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 16; ]
+    function onLayout(dc) {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_view2_mc_16_26_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc" 17 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        putv self :width %tmp.3;
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc" 18 8 ]
+        %tmp.4 = lgetv %dc;
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        putv self :height %tmp.6;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_view2_mc_16_26_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 24; ]
+    function onShow() {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 28; ]
+    function onUpdate(dc) {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_view2_mc_28_26_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc" 29 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc" 30 2 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :drawText;
+        %tmp.10 = getv ? :width;
+        %tmp.11 = 2;
+        %tmp.12 = div %tmp.10 %tmp.11;
+        %tmp.14 = getv ? :height;
+        %tmp.15 = 2;
+        %tmp.16 = div %tmp.14 %tmp.15;
+        %tmp.17 = getm $.Toybox.Graphics;
+        %tmp.18 = getv %tmp.17 :FONT_TINY;
+        %tmp.19 = "Chess Strength\n";
+        %tmp.21 = getv ? :level;
+        %tmp.22 = add %tmp.19 %tmp.21;
+        %tmp.23 = getm $.Toybox.Graphics;
+        %tmp.24 = getv %tmp.23 :TEXT_JUSTIFY_CENTER;
+        %tmp.25 = getm $.Toybox.Graphics;
+        %tmp.26 = getv %tmp.25 :TEXT_JUSTIFY_VCENTER;
+        %tmp.27 = bitor %tmp.24 %tmp.26;
+        invoke %tmp.7 %tmp.8(%tmp.12, %tmp.16, %tmp.18, %tmp.22, %tmp.27);
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_view2_mc_28_26_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 36; ]
+    function onHide() {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 40; ]
+    function onExitSleep() {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 44; ]
+    function onEnterSleep() {
+    }
+}
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/view2.mc"; @line = 1; ]
+<init> {
+}

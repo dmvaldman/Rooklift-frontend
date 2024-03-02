@@ -1,0 +1,133 @@
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 1; ]
+import Toybox.WatchUi;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 2; ]
+using Toybox.Graphics;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 3; ]
+using Toybox.System as :Sys;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 4; ]
+using Toybox.Lang as :Lang;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 5; ]
+using Toybox.Application as :App;
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 7; ]
+class RookLiftView extends WatchUi.View{
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 8; @position = 8; ]
+    var width;
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 8; @position = 15; ]
+    var height;
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 10; ]
+    function initialize() as Void {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_RookLiftView_mc_10_26_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" 11 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" 12 8 ]
+        %tmp.4 = getm $.Toybox.Application;
+        %tmp.5 = getv %tmp.4 :Storage;
+        %tmp.6 = getv function %tmp.5 :getValue;
+        %tmp.7 = "level";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        putv self :level %tmp.8;
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" 13 8 ]
+        %tmp.9 = getm $.Toybox.Application;
+        %tmp.10 = getv %tmp.9 :Storage;
+        %tmp.11 = getv function %tmp.10 :getValue;
+        %tmp.12 = "metrics";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        putv self :metrics %tmp.13;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_RookLiftView_mc_10_26_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 17; ]
+    function onLayout(dc) {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_RookLiftView_mc_17_26_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" 18 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        putv self :width %tmp.3;
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" 19 8 ]
+        %tmp.4 = lgetv %dc;
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        putv self :height %tmp.6;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_RookLiftView_mc_17_26_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 25; ]
+    function onShow() {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_RookLiftView_mc_25_22_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" 26 8 ]
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv %tmp.1 :Storage;
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "level";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        putv self :level %tmp.5;
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" 27 8 ]
+        %tmp.6 = getm $.Toybox.Application;
+        %tmp.7 = getv %tmp.6 :Storage;
+        %tmp.8 = getv function %tmp.7 :getValue;
+        %tmp.9 = "metrics";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        putv self :metrics %tmp.10;
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_RookLiftView_mc_25_22_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 31; ]
+    function onUpdate(dc) {
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_RookLiftView_mc_31_26_start:
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" 32 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :clear;
+        invoke %tmp.1 %tmp.2();
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" 34 2 ]
+        [ "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_RookLiftView_mc_31_26_start" "_Users_dmvaldman_Code_garmin_Simple_Bkg_source_RookLiftView_mc_31_26_stop" ]
+        %font.1 = local;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :FONT_XTINY;
+        lputv %font.1 %tmp.4;
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" 35 8 ]
+        %tmp.5 = lgetv %dc;
+        %tmp.6 = getv function %tmp.5 :setColor;
+        %tmp.7 = getm $.Toybox.Graphics;
+        %tmp.8 = getv %tmp.7 :COLOR_WHITE;
+        %tmp.9 = getm $.Toybox.Graphics;
+        %tmp.10 = getv %tmp.9 :COLOR_TRANSPARENT;
+        invoke %tmp.5 %tmp.6(%tmp.8, %tmp.10);
+[ "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc" 37 8 ]
+        %tmp.11 = lgetv %dc;
+        %tmp.12 = getv function %tmp.11 :drawText;
+        %tmp.14 = getv ? :width;
+        %tmp.15 = 2;
+        %tmp.16 = div %tmp.14 %tmp.15;
+        %tmp.18 = getv ? :height;
+        %tmp.19 = 2;
+        %tmp.20 = div %tmp.18 %tmp.19;
+        %tmp.22 = lgetv %font.1;
+        %tmp.24 = getv ? :metrics;
+        %tmp.25 = getm $.Toybox.Graphics;
+        %tmp.26 = getv %tmp.25 :TEXT_JUSTIFY_CENTER;
+        %tmp.27 = getm $.Toybox.Graphics;
+        %tmp.28 = getv %tmp.27 :TEXT_JUSTIFY_VCENTER;
+        %tmp.29 = bitor %tmp.26 %tmp.28;
+        invoke %tmp.11 %tmp.12(%tmp.16, %tmp.20, %tmp.22, %tmp.24, %tmp.29);
+_Users_dmvaldman_Code_garmin_Simple_Bkg_source_RookLiftView_mc_31_26_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 43; ]
+    function onHide() {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 47; ]
+    function onExitSleep() {
+    }
+    [ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 51; ]
+    function onEnterSleep() {
+    }
+}
+[ @file = "/Users/dmvaldman/Code/garmin/Simple_Bkg/source/RookLiftView.mc"; @line = 1; ]
+<init> {
+}
