@@ -60,12 +60,13 @@ class RookLiftView extends WatchUi.View {
         for (var i = 0; i < metrics.size(); i++) {
             var metric = metrics[i];
             var label = metric[0];
-            // var importance = metric[1].get("importance");
+            var importance = metric[1].get("importance");
             var level = metric[1].get("level");
 
-            // draw rectangle
-            // dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-            // dc.drawRectangle(x, y, rectWidth, rectHeight);
+            // if importance is near 0, don't display (this is for sparse model fitting that zero-out unimportant features)
+            if (importance < .0001) {
+                continue;
+            }
 
             dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
             dc.fillRectangle(x, y, rectWidth, rectHeight);

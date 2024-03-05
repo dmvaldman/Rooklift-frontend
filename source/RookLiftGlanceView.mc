@@ -18,7 +18,10 @@ class RoofLiftGlanceView extends WatchUi.GlanceView {
   }
 
   function onShow() as Void {
-    level = App.Storage.getValue("level");
+    var temp = App.Storage.getValue("level");
+    if (temp != null) {
+      level = temp;
+    }
     metrics = App.Storage.getValue("metrics");
   }
 
@@ -82,10 +85,10 @@ class RoofLiftGlanceView extends WatchUi.GlanceView {
 
     // draw level
     var level_str = ((Math.round(level * 100) / 100 )as String).toString().substring(0, 4);
-    var command_str = (level > .5) ? "PLAY!" : "REST!";
+    var command_str = (level > .5) ? "SMART!" : "UR DUMB!";
     y = fontHeight + graphicsHeight + 2 * margin;
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-    dc.drawText(deviceWidth - 26, y, font, command_str, Graphics.TEXT_JUSTIFY_RIGHT);
+    dc.drawText(deviceWidth - 20, y, font, command_str, Graphics.TEXT_JUSTIFY_RIGHT);
     dc.drawText(0, y, font, level_str, Graphics.TEXT_JUSTIFY_LEFT);
   }
 }
