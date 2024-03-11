@@ -62,10 +62,17 @@ class RookLiftView extends WatchUi.View {
             var label = metric[0];
             var importance = metric[1].get("importance");
             var level = metric[1].get("level");
+            var text_margin = 46;
 
             // if importance is near 0, don't display (this is for sparse model fitting that zero-out unimportant features)
-            if (importance < .0001) {
+            if ((importance < .0001) && (importance > -.0001)){
                 continue;
+            }
+
+            if (importance >= 0){
+                label = label + " [+]";
+            } else {
+                label = label + " [-]";
             }
 
             dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
@@ -73,16 +80,18 @@ class RookLiftView extends WatchUi.View {
 
             // draw label
             var color = Graphics.COLOR_RED;
-            if (level > 0) {
+            if (level >= 0 && level <= 1) {
                 color = Graphics.COLOR_GREEN;
-            } else if (level > -.25) {
+            } else if ((level < -.25 && importance > 0) || (level > 1.25 && importance < 0)) {
+                color = Graphics.COLOR_RED;
+            } else if ((level < 0 && importance > 0) || (level > 1 && importance < 0)){
                 color = Graphics.COLOR_YELLOW;
             }
 
             dc.setColor(color, Graphics.COLOR_TRANSPARENT);
 
             var textWidth = dc.getTextDimensions(label, font)[0];
-            dc.drawText(x - textWidth - 64, y, font, label, Graphics.TEXT_JUSTIFY_LEFT);
+            dc.drawText(x - textWidth - text_margin, y, font, label, Graphics.TEXT_JUSTIFY_LEFT);
 
             // clip level to -1 to 2
             if (level > 1.5) {

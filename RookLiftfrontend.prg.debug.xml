@@ -57,110 +57,121 @@
 <entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/bg.mc" id="20" lineNum="42" parent="globals/BgServiceDelegate" pc="268436432" symbol="responseCallback"/>
 <entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="21" lineNum="8" parent="globals/RoofLiftGlanceView" pc="268436450" symbol="&lt;init&gt;"/>
 <entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="22" lineNum="20" parent="globals/RoofLiftGlanceView" pc="268436469" symbol="onShow"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="22" lineNum="21" parent="globals/RoofLiftGlanceView" pc="268436471" symbol="onShow"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="22" lineNum="22" parent="globals/RoofLiftGlanceView" pc="268436505" symbol="onShow"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="23" lineNum="15" parent="globals/RoofLiftGlanceView" pc="268436540" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="23" lineNum="16" parent="globals/RoofLiftGlanceView" pc="268436542" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="23" lineNum="17" parent="globals/RoofLiftGlanceView" pc="268436561" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="24" lineNum="11" parent="globals/RoofLiftGlanceView" pc="268436581" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="24" lineNum="12" parent="globals/RoofLiftGlanceView" pc="268436583" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="25" parent="globals/RoofLiftGlanceView" pc="268436602" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="26" parent="globals/RoofLiftGlanceView" pc="268436606" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="28" parent="globals/RoofLiftGlanceView" pc="268436618" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="29" parent="globals/RoofLiftGlanceView" pc="268436625" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="30" parent="globals/RoofLiftGlanceView" pc="268436647" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="32" parent="globals/RoofLiftGlanceView" pc="268436681" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="33" parent="globals/RoofLiftGlanceView" pc="268436696" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="34" parent="globals/RoofLiftGlanceView" pc="268436703" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="36" parent="globals/RoofLiftGlanceView" pc="268436713" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="37" parent="globals/RoofLiftGlanceView" pc="268436720" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="39" parent="globals/RoofLiftGlanceView" pc="268436750" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="46" parent="globals/RoofLiftGlanceView" pc="268436810" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="48" parent="globals/RoofLiftGlanceView" pc="268436817" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="50" parent="globals/RoofLiftGlanceView" pc="268436839" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="52" parent="globals/RoofLiftGlanceView" pc="268436884" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="53" parent="globals/RoofLiftGlanceView" pc="268436891" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="55" parent="globals/RoofLiftGlanceView" pc="268436898" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="56" parent="globals/RoofLiftGlanceView" pc="268436905" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="58" parent="globals/RoofLiftGlanceView" pc="268436912" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="59" parent="globals/RoofLiftGlanceView" pc="268436925" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="61" parent="globals/RoofLiftGlanceView" pc="268436941" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="62" parent="globals/RoofLiftGlanceView" pc="268436956" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="63" parent="globals/RoofLiftGlanceView" pc="268436964" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="66" parent="globals/RoofLiftGlanceView" pc="268436974" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="69" parent="globals/RoofLiftGlanceView" pc="268436981" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="70" parent="globals/RoofLiftGlanceView" pc="268437003" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="72" parent="globals/RoofLiftGlanceView" pc="268437035" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="73" parent="globals/RoofLiftGlanceView" pc="268437086" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="77" parent="globals/RoofLiftGlanceView" pc="268437109" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="78" parent="globals/RoofLiftGlanceView" pc="268437122" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="79" parent="globals/RoofLiftGlanceView" pc="268437129" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="80" parent="globals/RoofLiftGlanceView" pc="268437136" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="81" parent="globals/RoofLiftGlanceView" pc="268437155" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="84" parent="globals/RoofLiftGlanceView" pc="268437196" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="85" parent="globals/RoofLiftGlanceView" pc="268437263" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="86" parent="globals/RoofLiftGlanceView" pc="268437295" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="87" parent="globals/RoofLiftGlanceView" pc="268437311" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="88" parent="globals/RoofLiftGlanceView" pc="268437333" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="89" parent="globals/RoofLiftGlanceView" pc="268437370" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/gen/006-B3703-00/source/Rez.mcgen" id="26" lineNum="7" parent="globals/Rez" pc="268437399" symbol="&lt;init&gt;"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="27" lineNum="8" parent="globals/RookLiftView" pc="268437423" symbol="&lt;init&gt;"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="29" lineNum="26" parent="globals/RookLiftView" pc="268437442" symbol="onShow"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="29" lineNum="27" parent="globals/RookLiftView" pc="268437444" symbol="onShow"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="29" lineNum="28" parent="globals/RookLiftView" pc="268437478" symbol="onShow"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="30" lineNum="35" parent="globals/RookLiftView" pc="268437513" symbol="min"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="30" lineNum="36" parent="globals/RookLiftView" pc="268437515" symbol="min"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="31" lineNum="31" parent="globals/RookLiftView" pc="268437531" symbol="max"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="31" lineNum="32" parent="globals/RookLiftView" pc="268437533" symbol="max"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="32" lineNum="18" parent="globals/RookLiftView" pc="268437549" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="32" lineNum="19" parent="globals/RookLiftView" pc="268437551" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="32" lineNum="20" parent="globals/RookLiftView" pc="268437570" symbol="onLayout"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="34" lineNum="11" parent="globals/RookLiftView" pc="268437590" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="34" lineNum="12" parent="globals/RookLiftView" pc="268437592" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="34" lineNum="13" parent="globals/RookLiftView" pc="268437610" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="34" lineNum="14" parent="globals/RookLiftView" pc="268437644" symbol="initialize"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="40" parent="globals/RookLiftView" pc="268437679" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="41" parent="globals/RookLiftView" pc="268437683" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="43" parent="globals/RookLiftView" pc="268437695" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="44" parent="globals/RookLiftView" pc="268437702" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="46" parent="globals/RookLiftView" pc="268437717" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="48" parent="globals/RookLiftView" pc="268437739" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="49" parent="globals/RookLiftView" pc="268437752" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="50" parent="globals/RookLiftView" pc="268437804" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="53" parent="globals/RookLiftView" pc="268437805" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="54" parent="globals/RookLiftView" pc="268437821" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="55" parent="globals/RookLiftView" pc="268437825" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="56" parent="globals/RookLiftView" pc="268437847" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="57" parent="globals/RookLiftView" pc="268437863" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="60" parent="globals/RookLiftView" pc="268437870" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="61" parent="globals/RookLiftView" pc="268437900" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="62" parent="globals/RookLiftView" pc="268437913" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="64" parent="globals/RookLiftView" pc="268437923" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="70" parent="globals/RookLiftView" pc="268437947" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="71" parent="globals/RookLiftView" pc="268437969" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="74" parent="globals/RookLiftView" pc="268437989" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="75" parent="globals/RookLiftView" pc="268437996" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="76" parent="globals/RookLiftView" pc="268438007" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="77" parent="globals/RookLiftView" pc="268438017" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="78" parent="globals/RookLiftView" pc="268438028" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="81" parent="globals/RookLiftView" pc="268438035" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="83" parent="globals/RookLiftView" pc="268438054" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="84" parent="globals/RookLiftView" pc="268438077" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="87" parent="globals/RookLiftView" pc="268438111" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="88" parent="globals/RookLiftView" pc="268438122" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="89" parent="globals/RookLiftView" pc="268438132" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="90" parent="globals/RookLiftView" pc="268438143" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="94" parent="globals/RookLiftView" pc="268438150" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="95" parent="globals/RookLiftView" pc="268438157" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="96" parent="globals/RookLiftView" pc="268438161" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="97" parent="globals/RookLiftView" pc="268438180" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="99" parent="globals/RookLiftView" pc="268438202" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="102" parent="globals/RookLiftView" pc="268438222" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="103" parent="globals/RookLiftView" pc="268438233" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="105" parent="globals/RookLiftView" pc="268438277" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="106" parent="globals/RookLiftView" pc="268438288" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="109" parent="globals/RookLiftView" pc="268438326" symbol="onUpdate"/>
-<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="110" parent="globals/RookLiftView" pc="268438333" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="22" lineNum="21" parent="globals/RoofLiftGlanceView" pc="268436473" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="22" lineNum="22" parent="globals/RoofLiftGlanceView" pc="268436501" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="22" lineNum="23" parent="globals/RoofLiftGlanceView" pc="268436508" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="22" lineNum="25" parent="globals/RoofLiftGlanceView" pc="268436518" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="23" lineNum="15" parent="globals/RoofLiftGlanceView" pc="268436553" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="23" lineNum="16" parent="globals/RoofLiftGlanceView" pc="268436555" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="23" lineNum="17" parent="globals/RoofLiftGlanceView" pc="268436574" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="24" lineNum="11" parent="globals/RoofLiftGlanceView" pc="268436594" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="24" lineNum="12" parent="globals/RoofLiftGlanceView" pc="268436596" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="28" parent="globals/RoofLiftGlanceView" pc="268436615" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="29" parent="globals/RoofLiftGlanceView" pc="268436619" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="31" parent="globals/RoofLiftGlanceView" pc="268436631" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="32" parent="globals/RoofLiftGlanceView" pc="268436638" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="33" parent="globals/RoofLiftGlanceView" pc="268436660" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="35" parent="globals/RoofLiftGlanceView" pc="268436694" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="36" parent="globals/RoofLiftGlanceView" pc="268436709" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="37" parent="globals/RoofLiftGlanceView" pc="268436716" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="39" parent="globals/RoofLiftGlanceView" pc="268436726" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="40" parent="globals/RoofLiftGlanceView" pc="268436733" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="42" parent="globals/RoofLiftGlanceView" pc="268436763" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="49" parent="globals/RoofLiftGlanceView" pc="268436823" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="51" parent="globals/RoofLiftGlanceView" pc="268436830" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="53" parent="globals/RoofLiftGlanceView" pc="268436852" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="55" parent="globals/RoofLiftGlanceView" pc="268436897" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="56" parent="globals/RoofLiftGlanceView" pc="268436904" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="58" parent="globals/RoofLiftGlanceView" pc="268436911" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="59" parent="globals/RoofLiftGlanceView" pc="268436918" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="61" parent="globals/RoofLiftGlanceView" pc="268436925" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="62" parent="globals/RoofLiftGlanceView" pc="268436938" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="64" parent="globals/RoofLiftGlanceView" pc="268436954" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="65" parent="globals/RoofLiftGlanceView" pc="268436969" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="66" parent="globals/RoofLiftGlanceView" pc="268436977" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="69" parent="globals/RoofLiftGlanceView" pc="268436987" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="72" parent="globals/RoofLiftGlanceView" pc="268436994" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="73" parent="globals/RoofLiftGlanceView" pc="268437016" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="75" parent="globals/RoofLiftGlanceView" pc="268437048" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="76" parent="globals/RoofLiftGlanceView" pc="268437099" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="80" parent="globals/RoofLiftGlanceView" pc="268437122" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="81" parent="globals/RoofLiftGlanceView" pc="268437135" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="82" parent="globals/RoofLiftGlanceView" pc="268437142" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="83" parent="globals/RoofLiftGlanceView" pc="268437149" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="84" parent="globals/RoofLiftGlanceView" pc="268437168" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="87" parent="globals/RoofLiftGlanceView" pc="268437209" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="88" parent="globals/RoofLiftGlanceView" pc="268437276" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="89" parent="globals/RoofLiftGlanceView" pc="268437308" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="90" parent="globals/RoofLiftGlanceView" pc="268437324" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="91" parent="globals/RoofLiftGlanceView" pc="268437346" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftGlanceView.mc" id="25" lineNum="92" parent="globals/RoofLiftGlanceView" pc="268437383" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/gen/006-B3703-00/source/Rez.mcgen" id="26" lineNum="7" parent="globals/Rez" pc="268437412" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="27" lineNum="8" parent="globals/RookLiftView" pc="268437436" symbol="&lt;init&gt;"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="29" lineNum="26" parent="globals/RookLiftView" pc="268437455" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="29" lineNum="27" parent="globals/RookLiftView" pc="268437457" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="29" lineNum="28" parent="globals/RookLiftView" pc="268437491" symbol="onShow"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="30" lineNum="35" parent="globals/RookLiftView" pc="268437526" symbol="min"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="30" lineNum="36" parent="globals/RookLiftView" pc="268437528" symbol="min"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="31" lineNum="31" parent="globals/RookLiftView" pc="268437544" symbol="max"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="31" lineNum="32" parent="globals/RookLiftView" pc="268437546" symbol="max"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="32" lineNum="18" parent="globals/RookLiftView" pc="268437562" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="32" lineNum="19" parent="globals/RookLiftView" pc="268437564" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="32" lineNum="20" parent="globals/RookLiftView" pc="268437583" symbol="onLayout"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="34" lineNum="11" parent="globals/RookLiftView" pc="268437603" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="34" lineNum="12" parent="globals/RookLiftView" pc="268437605" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="34" lineNum="13" parent="globals/RookLiftView" pc="268437623" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="34" lineNum="14" parent="globals/RookLiftView" pc="268437657" symbol="initialize"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="40" parent="globals/RookLiftView" pc="268437692" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="41" parent="globals/RookLiftView" pc="268437696" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="43" parent="globals/RookLiftView" pc="268437708" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="44" parent="globals/RookLiftView" pc="268437715" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="46" parent="globals/RookLiftView" pc="268437730" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="48" parent="globals/RookLiftView" pc="268437752" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="49" parent="globals/RookLiftView" pc="268437765" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="50" parent="globals/RookLiftView" pc="268437817" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="53" parent="globals/RookLiftView" pc="268437818" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="54" parent="globals/RookLiftView" pc="268437834" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="55" parent="globals/RookLiftView" pc="268437838" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="56" parent="globals/RookLiftView" pc="268437860" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="57" parent="globals/RookLiftView" pc="268437876" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="60" parent="globals/RookLiftView" pc="268437883" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="61" parent="globals/RookLiftView" pc="268437913" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="62" parent="globals/RookLiftView" pc="268437926" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="63" parent="globals/RookLiftView" pc="268437936" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="64" parent="globals/RookLiftView" pc="268437960" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="65" parent="globals/RookLiftView" pc="268437984" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="68" parent="globals/RookLiftView" pc="268437991" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="69" parent="globals/RookLiftView" pc="268438016" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="72" parent="globals/RookLiftView" pc="268438019" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="73" parent="globals/RookLiftView" pc="268438030" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="75" parent="globals/RookLiftView" pc="268438043" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="78" parent="globals/RookLiftView" pc="268438053" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="79" parent="globals/RookLiftView" pc="268438075" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="82" parent="globals/RookLiftView" pc="268438095" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="83" parent="globals/RookLiftView" pc="268438102" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="84" parent="globals/RookLiftView" pc="268438127" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="85" parent="globals/RookLiftView" pc="268438137" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="86" parent="globals/RookLiftView" pc="268438190" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="87" parent="globals/RookLiftView" pc="268438200" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="88" parent="globals/RookLiftView" pc="268438253" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="91" parent="globals/RookLiftView" pc="268438260" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="93" parent="globals/RookLiftView" pc="268438279" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="94" parent="globals/RookLiftView" pc="268438302" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="97" parent="globals/RookLiftView" pc="268438333" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="98" parent="globals/RookLiftView" pc="268438344" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="99" parent="globals/RookLiftView" pc="268438354" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="100" parent="globals/RookLiftView" pc="268438365" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="104" parent="globals/RookLiftView" pc="268438372" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="105" parent="globals/RookLiftView" pc="268438379" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="106" parent="globals/RookLiftView" pc="268438383" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="107" parent="globals/RookLiftView" pc="268438402" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="109" parent="globals/RookLiftView" pc="268438424" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="112" parent="globals/RookLiftView" pc="268438444" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="113" parent="globals/RookLiftView" pc="268438455" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="115" parent="globals/RookLiftView" pc="268438499" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="116" parent="globals/RookLiftView" pc="268438510" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="119" parent="globals/RookLiftView" pc="268438548" symbol="onUpdate"/>
+<entry filename="/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" id="36" lineNum="120" parent="globals/RookLiftView" pc="268438555" symbol="onUpdate"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -239,51 +250,54 @@
 <entry endPc="268436299" name="options" stackId="3" startPc="268436173"/>
 <entry arg="true" endPc="268436449" name="responseCode" stackId="1" startPc="268436336"/>
 <entry arg="true" endPc="268436449" name="data" stackId="2" startPc="268436336"/>
-<entry arg="true" endPc="268436580" name="dc" stackId="1" startPc="268436540"/>
-<entry arg="true" endPc="268437398" name="dc" stackId="1" startPc="268436602"/>
-<entry endPc="268437397" name="font" stackId="2" startPc="268436606"/>
-<entry endPc="268437397" name="fontHeight" stackId="3" startPc="268436606"/>
-<entry endPc="268437397" name="graphicsHeight" stackId="4" startPc="268436606"/>
-<entry endPc="268437397" name="graphicsWidth" stackId="5" startPc="268436606"/>
-<entry endPc="268437397" name="maxStages" stackId="6" startPc="268436606"/>
-<entry endPc="268437397" name="currStage" stackId="7" startPc="268436606"/>
-<entry endPc="268437397" name="colors" stackId="8" startPc="268436606"/>
-<entry endPc="268437397" name="grayColor" stackId="9" startPc="268436606"/>
-<entry endPc="268437397" name="margin" stackId="10" startPc="268436606"/>
-<entry endPc="268437397" name="x" stackId="11" startPc="268436606"/>
-<entry endPc="268437397" name="y" stackId="12" startPc="268436606"/>
-<entry endPc="268437397" name="rectGap" stackId="13" startPc="268436606"/>
-<entry endPc="268437397" name="rectHeightMargin" stackId="14" startPc="268436606"/>
-<entry endPc="268437397" name="rectHeight" stackId="15" startPc="268436606"/>
-<entry endPc="268437397" name="rectWidth" stackId="16" startPc="268436606"/>
-<entry endPc="268437108" name="stage" stackId="17" startPc="268436956"/>
-<entry endPc="268437397" name="location" stackId="18" startPc="268436606"/>
-<entry endPc="268437397" name="meterWidth" stackId="19" startPc="268436606"/>
-<entry endPc="268437397" name="level_str" stackId="20" startPc="268436606"/>
-<entry endPc="268437397" name="command_str" stackId="21" startPc="268436606"/>
-<entry arg="true" endPc="268437530" name="a" stackId="1" startPc="268437513"/>
-<entry arg="true" endPc="268437530" name="b" stackId="2" startPc="268437513"/>
-<entry arg="true" endPc="268437548" name="a" stackId="1" startPc="268437531"/>
-<entry arg="true" endPc="268437548" name="b" stackId="2" startPc="268437531"/>
-<entry arg="true" endPc="268437589" name="dc" stackId="1" startPc="268437549"/>
-<entry arg="true" endPc="268438353" name="dc" stackId="1" startPc="268437679"/>
-<entry endPc="268438352" name="font" stackId="2" startPc="268437683"/>
-<entry endPc="268438352" name="fontHeight" stackId="3" startPc="268437683"/>
-<entry endPc="268438352" name="rectWidth" stackId="4" startPc="268437683"/>
-<entry endPc="268438352" name="rectHeight" stackId="5" startPc="268437683"/>
-<entry endPc="268438352" name="x" stackId="6" startPc="268437683"/>
-<entry endPc="268438352" name="y" stackId="7" startPc="268437683"/>
-<entry endPc="268438352" name="margin" stackId="8" startPc="268437683"/>
-<entry endPc="268438352" name="i" stackId="9" startPc="268437900"/>
-<entry endPc="268438339" name="metric" stackId="10" startPc="268437900"/>
-<entry endPc="268438339" name="label" stackId="11" startPc="268437900"/>
-<entry endPc="268438339" name="level" stackId="12" startPc="268437900"/>
-<entry endPc="268438339" name="color" stackId="13" startPc="268437900"/>
-<entry endPc="268438339" name="textWidth" stackId="14" startPc="268437900"/>
-<entry endPc="268438339" name="levelWidth" stackId="15" startPc="268437900"/>
-<entry endPc="268438339" name="levelHeight" stackId="16" startPc="268437900"/>
-<entry endPc="268438339" name="levelX" stackId="17" startPc="268437900"/>
-<entry endPc="268438339" name="levelY" stackId="18" startPc="268437900"/>
+<entry endPc="268436551" name="temp" stackId="1" startPc="268436473"/>
+<entry arg="true" endPc="268436593" name="dc" stackId="1" startPc="268436553"/>
+<entry arg="true" endPc="268437411" name="dc" stackId="1" startPc="268436615"/>
+<entry endPc="268437410" name="font" stackId="2" startPc="268436619"/>
+<entry endPc="268437410" name="fontHeight" stackId="3" startPc="268436619"/>
+<entry endPc="268437410" name="graphicsHeight" stackId="4" startPc="268436619"/>
+<entry endPc="268437410" name="graphicsWidth" stackId="5" startPc="268436619"/>
+<entry endPc="268437410" name="maxStages" stackId="6" startPc="268436619"/>
+<entry endPc="268437410" name="currStage" stackId="7" startPc="268436619"/>
+<entry endPc="268437410" name="colors" stackId="8" startPc="268436619"/>
+<entry endPc="268437410" name="grayColor" stackId="9" startPc="268436619"/>
+<entry endPc="268437410" name="margin" stackId="10" startPc="268436619"/>
+<entry endPc="268437410" name="x" stackId="11" startPc="268436619"/>
+<entry endPc="268437410" name="y" stackId="12" startPc="268436619"/>
+<entry endPc="268437410" name="rectGap" stackId="13" startPc="268436619"/>
+<entry endPc="268437410" name="rectHeightMargin" stackId="14" startPc="268436619"/>
+<entry endPc="268437410" name="rectHeight" stackId="15" startPc="268436619"/>
+<entry endPc="268437410" name="rectWidth" stackId="16" startPc="268436619"/>
+<entry endPc="268437121" name="stage" stackId="17" startPc="268436969"/>
+<entry endPc="268437410" name="location" stackId="18" startPc="268436619"/>
+<entry endPc="268437410" name="meterWidth" stackId="19" startPc="268436619"/>
+<entry endPc="268437410" name="level_str" stackId="20" startPc="268436619"/>
+<entry endPc="268437410" name="command_str" stackId="21" startPc="268436619"/>
+<entry arg="true" endPc="268437543" name="a" stackId="1" startPc="268437526"/>
+<entry arg="true" endPc="268437543" name="b" stackId="2" startPc="268437526"/>
+<entry arg="true" endPc="268437561" name="a" stackId="1" startPc="268437544"/>
+<entry arg="true" endPc="268437561" name="b" stackId="2" startPc="268437544"/>
+<entry arg="true" endPc="268437602" name="dc" stackId="1" startPc="268437562"/>
+<entry arg="true" endPc="268438575" name="dc" stackId="1" startPc="268437692"/>
+<entry endPc="268438574" name="font" stackId="2" startPc="268437696"/>
+<entry endPc="268438574" name="fontHeight" stackId="3" startPc="268437696"/>
+<entry endPc="268438574" name="rectWidth" stackId="4" startPc="268437696"/>
+<entry endPc="268438574" name="rectHeight" stackId="5" startPc="268437696"/>
+<entry endPc="268438574" name="x" stackId="6" startPc="268437696"/>
+<entry endPc="268438574" name="y" stackId="7" startPc="268437696"/>
+<entry endPc="268438574" name="margin" stackId="8" startPc="268437696"/>
+<entry endPc="268438574" name="i" stackId="9" startPc="268437913"/>
+<entry endPc="268438561" name="metric" stackId="10" startPc="268437913"/>
+<entry endPc="268438561" name="label" stackId="11" startPc="268437913"/>
+<entry endPc="268438561" name="importance" stackId="12" startPc="268437913"/>
+<entry endPc="268438561" name="level" stackId="13" startPc="268437913"/>
+<entry endPc="268438561" name="text_margin" stackId="14" startPc="268437913"/>
+<entry endPc="268438561" name="color" stackId="15" startPc="268437913"/>
+<entry endPc="268438561" name="textWidth" stackId="16" startPc="268437913"/>
+<entry endPc="268438561" name="levelWidth" stackId="17" startPc="268437913"/>
+<entry endPc="268438561" name="levelHeight" stackId="18" startPc="268437913"/>
+<entry endPc="268438561" name="levelX" stackId="19" startPc="268437913"/>
+<entry endPc="268438561" name="levelY" stackId="20" startPc="268437913"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="glance" class="RookLiftApp" module="globals" symbol="getRandomInteger"/>
@@ -386,56 +400,56 @@
 <functionEntry accessMode="public" endPc="268436468" name="&lt;init&gt;" parent="RoofLiftGlanceView" startPc="268436450">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436539" name="onShow" parent="RoofLiftGlanceView" startPc="268436469">
+<functionEntry accessMode="public" endPc="268436552" name="onShow" parent="RoofLiftGlanceView" startPc="268436469">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436580" name="onLayout" parent="RoofLiftGlanceView" startPc="268436540">
+<functionEntry accessMode="public" endPc="268436593" name="onLayout" parent="RoofLiftGlanceView" startPc="268436553">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436601" name="initialize" parent="RoofLiftGlanceView" startPc="268436581">
+<functionEntry accessMode="public" endPc="268436614" name="initialize" parent="RoofLiftGlanceView" startPc="268436594">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437398" name="onUpdate" parent="RoofLiftGlanceView" startPc="268436602">
+<functionEntry accessMode="public" endPc="268437411" name="onUpdate" parent="RoofLiftGlanceView" startPc="268436615">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437422" name="&lt;init&gt;" parent="Rez" startPc="268437399">
+<functionEntry accessMode="public" endPc="268437435" name="&lt;init&gt;" parent="Rez" startPc="268437412">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437441" name="&lt;init&gt;" parent="RookLiftView" startPc="268437423">
+<functionEntry accessMode="public" endPc="268437454" name="&lt;init&gt;" parent="RookLiftView" startPc="268437436">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onExitSleep" parent="RookLiftView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437512" name="onShow" parent="RookLiftView" startPc="268437442">
+<functionEntry accessMode="public" endPc="268437525" name="onShow" parent="RookLiftView" startPc="268437455">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437530" name="min" parent="RookLiftView" startPc="268437513">
+<functionEntry accessMode="public" endPc="268437543" name="min" parent="RookLiftView" startPc="268437526">
 <param id="a"/>
 <param id="b"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437548" name="max" parent="RookLiftView" startPc="268437531">
+<functionEntry accessMode="public" endPc="268437561" name="max" parent="RookLiftView" startPc="268437544">
 <param id="a"/>
 <param id="b"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437589" name="onLayout" parent="RookLiftView" startPc="268437549">
+<functionEntry accessMode="public" endPc="268437602" name="onLayout" parent="RookLiftView" startPc="268437562">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="RookLiftView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437678" name="initialize" parent="RookLiftView" startPc="268437590">
+<functionEntry accessMode="public" endPc="268437691" name="initialize" parent="RookLiftView" startPc="268437603">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="RookLiftView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438353" name="onUpdate" parent="RookLiftView" startPc="268437679">
+<functionEntry accessMode="public" endPc="268438575" name="onUpdate" parent="RookLiftView" startPc="268437692">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
