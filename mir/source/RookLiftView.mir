@@ -185,7 +185,7 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_48_8_if_end:
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_40_26_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_40_26_stop" ]
         %rectWidth.3 = local;
         %tmp.39 = getv ? :width;
-        %tmp.40 = 5;
+        %tmp.40 = 6;
         %tmp.41 = div %tmp.39 %tmp.40;
         lputv %rectWidth.3 %tmp.41;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 54 8 ]
@@ -199,14 +199,14 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_48_8_if_end:
         %tmp.45 = getv ? :width;
         %tmp.46 = 2;
         %tmp.47 = div %tmp.45 %tmp.46;
-        %tmp.48 = 44;
+        %tmp.48 = 56;
         %tmp.49 = add %tmp.47 %tmp.48;
         lputv %x.5 %tmp.49;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 56 8 ]
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_40_26_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_40_26_stop" ]
         %y.6 = local;
         %tmp.51 = getv ? :height;
-        %tmp.52 = 6;
+        %tmp.52 = 5.5;
         %tmp.53 = div %tmp.51 %tmp.52;
         lputv %y.6 %tmp.53;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 57 8 ]
@@ -267,7 +267,7 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_start:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 65 12 ]
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_stop" ]
         %text_margin.13 = local;
-        %tmp.86 = 46;
+        %tmp.86 = 48;
         lputv %text_margin.13 %tmp.86;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 68 12 ]
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_68_12_if_stmt:
@@ -342,74 +342,118 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_72_12_if_end:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 83 12 ]
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_12_if_stmt:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_16_begin:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_16_begin:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_17_begin:
         %tmp.129 = lgetv %level.12;
         %tmp.130 = 0;
         %tmp.131 = gte %tmp.129 %tmp.130;
         %tmp.132 = dup %tmp.131;
-        bf %tmp.132 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_30_end;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_30_true:
+        bf %tmp.132 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_31_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_31_true:
         %tmp.134 = lgetv %level.12;
         %tmp.135 = 1;
         %tmp.136 = lte %tmp.134 %tmp.135;
         %tmp.137 = and %tmp.131 %tmp.136;
         push %tmp.137;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_30_end:
-        %tmp.138 = phi [%tmp.132 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_16_begin] [%tmp.137 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_30_true] [%tmp.138 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_30_end];
-        bf %tmp.138 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_12_if_false;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_31_end:
+        %tmp.138 = phi [%tmp.132 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_17_begin] [%tmp.137 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_31_true] [%tmp.138 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_31_end];
+        %tmp.139 = dup %tmp.138;
+        bt %tmp.139 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_46_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_46_false:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_47_begin:
+        %tmp.141 = lgetv %level.12;
+        %tmp.142 = 0;
+        %tmp.143 = lt %tmp.141 %tmp.142;
+        %tmp.144 = dup %tmp.143;
+        bf %tmp.144 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_60_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_60_true:
+        %tmp.146 = lgetv %importance.11;
+        %tmp.147 = 0;
+        %tmp.148 = lt %tmp.146 %tmp.147;
+        %tmp.149 = and %tmp.143 %tmp.148;
+        push %tmp.149;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_60_end:
+        %tmp.150 = phi [%tmp.144 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_47_begin] [%tmp.149 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_60_true] [%tmp.150 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_60_end];
+        %tmp.151 = or %tmp.138 %tmp.150;
+        push %tmp.151;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_46_end:
+        %tmp.152 = phi [%tmp.139 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_16_begin] [%tmp.151 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_46_false] [%tmp.152 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_46_end];
+        %tmp.153 = dup %tmp.152;
+        bt %tmp.153 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_79_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_79_false:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_80_begin:
+        %tmp.155 = lgetv %level.12;
+        %tmp.156 = 1;
+        %tmp.157 = gt %tmp.155 %tmp.156;
+        %tmp.158 = dup %tmp.157;
+        bf %tmp.158 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_93_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_93_true:
+        %tmp.160 = lgetv %importance.11;
+        %tmp.161 = 0;
+        %tmp.162 = gt %tmp.160 %tmp.161;
+        %tmp.163 = and %tmp.157 %tmp.162;
+        push %tmp.163;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_93_end:
+        %tmp.164 = phi [%tmp.158 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_80_begin] [%tmp.163 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_93_true] [%tmp.164 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_93_end];
+        %tmp.165 = or %tmp.152 %tmp.164;
+        push %tmp.165;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_79_end:
+        %tmp.166 = phi [%tmp.153 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_16_begin] [%tmp.165 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_79_false] [%tmp.166 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_79_end];
+        bf %tmp.166 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_12_if_false;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_12_if_true:
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_42_start:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_109_start:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 84 16 ]
-        %tmp.139 = getm $.Toybox.Graphics;
-        %tmp.140 = getv %tmp.139 :COLOR_GREEN;
-        lputv %color.14 %tmp.140;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_42_stop:
+        %tmp.167 = getm $.Toybox.Graphics;
+        %tmp.168 = getv %tmp.167 :COLOR_GREEN;
+        lputv %color.14 %tmp.168;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_109_stop:
         goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_12_if_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_12_if_false:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 85 19 ]
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_19_if_stmt:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_23_begin:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_24_begin:
-        %tmp.142 = lgetv %level.12;
-        %tmp.143 = -.25;
-        %tmp.144 = lt %tmp.142 %tmp.143;
-        %tmp.145 = dup %tmp.144;
-        bf %tmp.145 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_40_end;
+        %tmp.170 = lgetv %level.12;
+        %tmp.171 = -.25;
+        %tmp.172 = lt %tmp.170 %tmp.171;
+        %tmp.173 = dup %tmp.172;
+        bf %tmp.173 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_40_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_40_true:
-        %tmp.147 = lgetv %importance.11;
-        %tmp.148 = 0;
-        %tmp.149 = gt %tmp.147 %tmp.148;
-        %tmp.150 = and %tmp.144 %tmp.149;
-        push %tmp.150;
+        %tmp.175 = lgetv %importance.11;
+        %tmp.176 = 0;
+        %tmp.177 = gt %tmp.175 %tmp.176;
+        %tmp.178 = and %tmp.172 %tmp.177;
+        push %tmp.178;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_40_end:
-        %tmp.151 = phi [%tmp.145 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_24_begin] [%tmp.150 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_40_true] [%tmp.151 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_40_end];
-        %tmp.152 = dup %tmp.151;
-        bt %tmp.152 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_59_end;
+        %tmp.179 = phi [%tmp.173 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_24_begin] [%tmp.178 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_40_true] [%tmp.179 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_40_end];
+        %tmp.180 = dup %tmp.179;
+        bt %tmp.180 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_59_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_59_false:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_60_begin:
-        %tmp.154 = lgetv %level.12;
-        %tmp.155 = 1.25;
-        %tmp.156 = gt %tmp.154 %tmp.155;
-        %tmp.157 = dup %tmp.156;
-        bf %tmp.157 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_76_end;
+        %tmp.182 = lgetv %level.12;
+        %tmp.183 = 1.25;
+        %tmp.184 = gt %tmp.182 %tmp.183;
+        %tmp.185 = dup %tmp.184;
+        bf %tmp.185 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_76_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_76_true:
-        %tmp.159 = lgetv %importance.11;
-        %tmp.160 = 0;
-        %tmp.161 = lt %tmp.159 %tmp.160;
-        %tmp.162 = and %tmp.156 %tmp.161;
-        push %tmp.162;
+        %tmp.187 = lgetv %importance.11;
+        %tmp.188 = 0;
+        %tmp.189 = lt %tmp.187 %tmp.188;
+        %tmp.190 = and %tmp.184 %tmp.189;
+        push %tmp.190;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_76_end:
-        %tmp.163 = phi [%tmp.157 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_60_begin] [%tmp.162 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_76_true] [%tmp.163 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_76_end];
-        %tmp.164 = or %tmp.151 %tmp.163;
-        push %tmp.164;
+        %tmp.191 = phi [%tmp.185 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_60_begin] [%tmp.190 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_76_true] [%tmp.191 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_76_end];
+        %tmp.192 = or %tmp.179 %tmp.191;
+        push %tmp.192;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_59_end:
-        %tmp.165 = phi [%tmp.152 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_23_begin] [%tmp.164 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_59_false] [%tmp.165 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_59_end];
-        bf %tmp.165 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_19_if_false;
+        %tmp.193 = phi [%tmp.180 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_23_begin] [%tmp.192 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_59_false] [%tmp.193 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_59_end];
+        bf %tmp.193 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_19_if_false;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_19_if_true:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_93_start:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 86 16 ]
-        %tmp.166 = getm $.Toybox.Graphics;
-        %tmp.167 = getv %tmp.166 :COLOR_RED;
-        lputv %color.14 %tmp.167;
+        %tmp.194 = getm $.Toybox.Graphics;
+        %tmp.195 = getv %tmp.194 :COLOR_RED;
+        lputv %color.14 %tmp.195;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_93_stop:
         goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_19_if_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_19_if_false:
@@ -417,109 +461,109 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_19_if_false:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_19_if_stmt:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_23_begin:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_24_begin:
-        %tmp.169 = lgetv %level.12;
-        %tmp.170 = 0;
-        %tmp.171 = lt %tmp.169 %tmp.170;
-        %tmp.172 = dup %tmp.171;
-        bf %tmp.172 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_37_end;
+        %tmp.197 = lgetv %level.12;
+        %tmp.198 = 0;
+        %tmp.199 = lt %tmp.197 %tmp.198;
+        %tmp.200 = dup %tmp.199;
+        bf %tmp.200 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_37_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_37_true:
-        %tmp.174 = lgetv %importance.11;
-        %tmp.175 = 0;
-        %tmp.176 = gt %tmp.174 %tmp.175;
-        %tmp.177 = and %tmp.171 %tmp.176;
-        push %tmp.177;
+        %tmp.202 = lgetv %importance.11;
+        %tmp.203 = 0;
+        %tmp.204 = gt %tmp.202 %tmp.203;
+        %tmp.205 = and %tmp.199 %tmp.204;
+        push %tmp.205;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_37_end:
-        %tmp.178 = phi [%tmp.172 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_24_begin] [%tmp.177 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_37_true] [%tmp.178 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_37_end];
-        %tmp.179 = dup %tmp.178;
-        bt %tmp.179 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_56_end;
+        %tmp.206 = phi [%tmp.200 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_24_begin] [%tmp.205 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_37_true] [%tmp.206 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_37_end];
+        %tmp.207 = dup %tmp.206;
+        bt %tmp.207 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_56_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_56_false:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_57_begin:
-        %tmp.181 = lgetv %level.12;
-        %tmp.182 = 1;
-        %tmp.183 = gt %tmp.181 %tmp.182;
-        %tmp.184 = dup %tmp.183;
-        bf %tmp.184 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_70_end;
+        %tmp.209 = lgetv %level.12;
+        %tmp.210 = 1;
+        %tmp.211 = gt %tmp.209 %tmp.210;
+        %tmp.212 = dup %tmp.211;
+        bf %tmp.212 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_70_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_70_true:
-        %tmp.186 = lgetv %importance.11;
-        %tmp.187 = 0;
-        %tmp.188 = lt %tmp.186 %tmp.187;
-        %tmp.189 = and %tmp.183 %tmp.188;
-        push %tmp.189;
+        %tmp.214 = lgetv %importance.11;
+        %tmp.215 = 0;
+        %tmp.216 = lt %tmp.214 %tmp.215;
+        %tmp.217 = and %tmp.211 %tmp.216;
+        push %tmp.217;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_70_end:
-        %tmp.190 = phi [%tmp.184 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_57_begin] [%tmp.189 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_70_true] [%tmp.190 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_70_end];
-        %tmp.191 = or %tmp.178 %tmp.190;
-        push %tmp.191;
+        %tmp.218 = phi [%tmp.212 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_57_begin] [%tmp.217 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_70_true] [%tmp.218 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_70_end];
+        %tmp.219 = or %tmp.206 %tmp.218;
+        push %tmp.219;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_56_end:
-        %tmp.192 = phi [%tmp.179 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_23_begin] [%tmp.191 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_56_false] [%tmp.192 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_56_end];
-        bf %tmp.192 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_19_if_end;
+        %tmp.220 = phi [%tmp.207 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_23_begin] [%tmp.219 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_56_false] [%tmp.220 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_56_end];
+        bf %tmp.220 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_19_if_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_19_if_true:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_86_start:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 88 16 ]
-        %tmp.193 = getm $.Toybox.Graphics;
-        %tmp.194 = getv %tmp.193 :COLOR_YELLOW;
-        lputv %color.14 %tmp.194;
+        %tmp.221 = getm $.Toybox.Graphics;
+        %tmp.222 = getv %tmp.221 :COLOR_YELLOW;
+        lputv %color.14 %tmp.222;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_86_stop:
         goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_19_if_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_87_19_if_end:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_85_19_if_end:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_83_12_if_end:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 91 12 ]
-        %tmp.195 = lgetv %dc;
-        %tmp.196 = getv function %tmp.195 :setColor;
-        %tmp.198 = lgetv %color.14;
-        %tmp.199 = getm $.Toybox.Graphics;
-        %tmp.200 = getv %tmp.199 :COLOR_TRANSPARENT;
-        invoke %tmp.195 %tmp.196(%tmp.198, %tmp.200);
+        %tmp.223 = lgetv %dc;
+        %tmp.224 = getv function %tmp.223 :setColor;
+        %tmp.226 = lgetv %color.14;
+        %tmp.227 = getm $.Toybox.Graphics;
+        %tmp.228 = getv %tmp.227 :COLOR_TRANSPARENT;
+        invoke %tmp.223 %tmp.224(%tmp.226, %tmp.228);
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 93 12 ]
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_stop" ]
         %textWidth.15 = local;
-        %tmp.201 = lgetv %dc;
-        %tmp.202 = getv function %tmp.201 :getTextDimensions;
-        %tmp.204 = lgetv %label.10;
-        %tmp.206 = lgetv %font.1;
-        %tmp.207 = invoke %tmp.201 %tmp.202(%tmp.204, %tmp.206);
-        %tmp.208 = 0;
-        %tmp.209 = agetv %tmp.207 %tmp.208;
-        lputv %textWidth.15 %tmp.209;
+        %tmp.229 = lgetv %dc;
+        %tmp.230 = getv function %tmp.229 :getTextDimensions;
+        %tmp.232 = lgetv %label.10;
+        %tmp.234 = lgetv %font.1;
+        %tmp.235 = invoke %tmp.229 %tmp.230(%tmp.232, %tmp.234);
+        %tmp.236 = 0;
+        %tmp.237 = agetv %tmp.235 %tmp.236;
+        lputv %textWidth.15 %tmp.237;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 94 12 ]
-        %tmp.210 = lgetv %dc;
-        %tmp.211 = getv function %tmp.210 :drawText;
-        %tmp.213 = lgetv %x.5;
-        %tmp.215 = lgetv %textWidth.15;
-        %tmp.216 = sub %tmp.213 %tmp.215;
-        %tmp.218 = lgetv %text_margin.13;
-        %tmp.219 = sub %tmp.216 %tmp.218;
-        %tmp.221 = lgetv %y.6;
-        %tmp.223 = lgetv %font.1;
-        %tmp.225 = lgetv %label.10;
-        %tmp.226 = getm $.Toybox.Graphics;
-        %tmp.227 = getv %tmp.226 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.210 %tmp.211(%tmp.219, %tmp.221, %tmp.223, %tmp.225, %tmp.227);
+        %tmp.238 = lgetv %dc;
+        %tmp.239 = getv function %tmp.238 :drawText;
+        %tmp.241 = lgetv %x.5;
+        %tmp.243 = lgetv %textWidth.15;
+        %tmp.244 = sub %tmp.241 %tmp.243;
+        %tmp.246 = lgetv %text_margin.13;
+        %tmp.247 = sub %tmp.244 %tmp.246;
+        %tmp.249 = lgetv %y.6;
+        %tmp.251 = lgetv %font.1;
+        %tmp.253 = lgetv %label.10;
+        %tmp.254 = getm $.Toybox.Graphics;
+        %tmp.255 = getv %tmp.254 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.238 %tmp.239(%tmp.247, %tmp.249, %tmp.251, %tmp.253, %tmp.255);
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 97 12 ]
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_97_12_if_stmt:
-        %tmp.229 = lgetv %level.12;
-        %tmp.230 = 1.5;
-        %tmp.231 = gt %tmp.229 %tmp.230;
-        bf %tmp.231 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_97_12_if_false;
+        %tmp.257 = lgetv %level.12;
+        %tmp.258 = 1.5;
+        %tmp.259 = gt %tmp.257 %tmp.258;
+        bf %tmp.259 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_97_12_if_false;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_97_12_if_true:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_97_29_start:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 98 16 ]
-        %tmp.232 = 1.5;
-        lputv %level.12 %tmp.232;
+        %tmp.260 = 1.5;
+        lputv %level.12 %tmp.260;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_97_29_stop:
         goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_97_12_if_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_97_12_if_false:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 99 19 ]
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_99_19_if_stmt:
-        %tmp.234 = lgetv %level.12;
-        %tmp.235 = -.5;
-        %tmp.236 = lt %tmp.234 %tmp.235;
-        bf %tmp.236 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_99_19_if_end;
+        %tmp.262 = lgetv %level.12;
+        %tmp.263 = -.5;
+        %tmp.264 = lt %tmp.262 %tmp.263;
+        bf %tmp.264 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_99_19_if_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_99_19_if_true:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_99_36_start:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 100 16 ]
-        %tmp.237 = -.5;
-        lputv %level.12 %tmp.237;
+        %tmp.265 = -.5;
+        lputv %level.12 %tmp.265;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_99_36_stop:
         goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_99_19_if_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_99_19_if_end:
@@ -527,120 +571,120 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_97_12_if_end:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 104 12 ]
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_stop" ]
         %levelWidth.16 = local;
-        %tmp.238 = 8;
-        lputv %levelWidth.16 %tmp.238;
+        %tmp.266 = 8;
+        lputv %levelWidth.16 %tmp.266;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 105 12 ]
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_stop" ]
         %levelHeight.17 = local;
-        %tmp.240 = lgetv %rectHeight.4;
-        lputv %levelHeight.17 %tmp.240;
+        %tmp.268 = lgetv %rectHeight.4;
+        lputv %levelHeight.17 %tmp.268;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 106 12 ]
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_stop" ]
         %levelX.18 = local;
-        %tmp.242 = lgetv %x.5;
-        %tmp.244 = lgetv %level.12;
-        %tmp.246 = lgetv %rectWidth.3;
-        %tmp.247 = mul %tmp.244 %tmp.246;
-        %tmp.248 = add %tmp.242 %tmp.247;
-        %tmp.250 = lgetv %levelWidth.16;
-        %tmp.251 = 2;
-        %tmp.252 = div %tmp.250 %tmp.251;
-        %tmp.253 = sub %tmp.248 %tmp.252;
-        lputv %levelX.18 %tmp.253;
+        %tmp.270 = lgetv %x.5;
+        %tmp.272 = lgetv %level.12;
+        %tmp.274 = lgetv %rectWidth.3;
+        %tmp.275 = mul %tmp.272 %tmp.274;
+        %tmp.276 = add %tmp.270 %tmp.275;
+        %tmp.278 = lgetv %levelWidth.16;
+        %tmp.279 = 2;
+        %tmp.280 = div %tmp.278 %tmp.279;
+        %tmp.281 = sub %tmp.276 %tmp.280;
+        lputv %levelX.18 %tmp.281;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 107 12 ]
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_stop" ]
         %levelY.19 = local;
-        %tmp.255 = lgetv %y.6;
-        %tmp.257 = lgetv %rectHeight.4;
-        %tmp.258 = 2;
-        %tmp.259 = div %tmp.257 %tmp.258;
-        %tmp.260 = add %tmp.255 %tmp.259;
-        %tmp.262 = lgetv %levelHeight.17;
-        %tmp.263 = 2;
-        %tmp.264 = div %tmp.262 %tmp.263;
-        %tmp.265 = sub %tmp.260 %tmp.264;
-        lputv %levelY.19 %tmp.265;
+        %tmp.283 = lgetv %y.6;
+        %tmp.285 = lgetv %rectHeight.4;
+        %tmp.286 = 2;
+        %tmp.287 = div %tmp.285 %tmp.286;
+        %tmp.288 = add %tmp.283 %tmp.287;
+        %tmp.290 = lgetv %levelHeight.17;
+        %tmp.291 = 2;
+        %tmp.292 = div %tmp.290 %tmp.291;
+        %tmp.293 = sub %tmp.288 %tmp.292;
+        lputv %levelY.19 %tmp.293;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 109 12 ]
-        %tmp.266 = lgetv %dc;
-        %tmp.267 = getv function %tmp.266 :fillRectangle;
-        %tmp.269 = lgetv %levelX.18;
-        %tmp.271 = lgetv %levelY.19;
-        %tmp.273 = lgetv %levelWidth.16;
-        %tmp.275 = lgetv %levelHeight.17;
-        invoke %tmp.266 %tmp.267(%tmp.269, %tmp.271, %tmp.273, %tmp.275);
+        %tmp.294 = lgetv %dc;
+        %tmp.295 = getv function %tmp.294 :fillRectangle;
+        %tmp.297 = lgetv %levelX.18;
+        %tmp.299 = lgetv %levelY.19;
+        %tmp.301 = lgetv %levelWidth.16;
+        %tmp.303 = lgetv %levelHeight.17;
+        invoke %tmp.294 %tmp.295(%tmp.297, %tmp.299, %tmp.301, %tmp.303);
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 112 12 ]
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_112_12_if_stmt:
-        %tmp.277 = lgetv %level.12;
-        %tmp.278 = 1;
-        %tmp.279 = gt %tmp.277 %tmp.278;
-        bf %tmp.279 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_112_12_if_false;
+        %tmp.305 = lgetv %level.12;
+        %tmp.306 = 1;
+        %tmp.307 = gt %tmp.305 %tmp.306;
+        bf %tmp.307 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_112_12_if_false;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_112_12_if_true:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_112_27_start:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 113 16 ]
-        %tmp.280 = lgetv %dc;
-        %tmp.281 = getv function %tmp.280 :drawLine;
-        %tmp.283 = lgetv %x.5;
-        %tmp.285 = lgetv %rectWidth.3;
-        %tmp.286 = add %tmp.283 %tmp.285;
-        %tmp.288 = lgetv %y.6;
-        %tmp.290 = lgetv %rectHeight.4;
-        %tmp.291 = 2;
-        %tmp.292 = div %tmp.290 %tmp.291;
-        %tmp.293 = add %tmp.288 %tmp.292;
-        %tmp.295 = lgetv %levelX.18;
-        %tmp.297 = lgetv %y.6;
-        %tmp.299 = lgetv %rectHeight.4;
-        %tmp.300 = 2;
-        %tmp.301 = div %tmp.299 %tmp.300;
-        %tmp.302 = add %tmp.297 %tmp.301;
-        invoke %tmp.280 %tmp.281(%tmp.286, %tmp.293, %tmp.295, %tmp.302);
+        %tmp.308 = lgetv %dc;
+        %tmp.309 = getv function %tmp.308 :drawLine;
+        %tmp.311 = lgetv %x.5;
+        %tmp.313 = lgetv %rectWidth.3;
+        %tmp.314 = add %tmp.311 %tmp.313;
+        %tmp.316 = lgetv %y.6;
+        %tmp.318 = lgetv %rectHeight.4;
+        %tmp.319 = 2;
+        %tmp.320 = div %tmp.318 %tmp.319;
+        %tmp.321 = add %tmp.316 %tmp.320;
+        %tmp.323 = lgetv %levelX.18;
+        %tmp.325 = lgetv %y.6;
+        %tmp.327 = lgetv %rectHeight.4;
+        %tmp.328 = 2;
+        %tmp.329 = div %tmp.327 %tmp.328;
+        %tmp.330 = add %tmp.325 %tmp.329;
+        invoke %tmp.308 %tmp.309(%tmp.314, %tmp.321, %tmp.323, %tmp.330);
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_112_27_stop:
         goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_112_12_if_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_112_12_if_false:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 115 17 ]
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_115_17_if_stmt:
-        %tmp.304 = lgetv %level.12;
-        %tmp.305 = 0;
-        %tmp.306 = lt %tmp.304 %tmp.305;
-        bf %tmp.306 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_115_17_if_end;
+        %tmp.332 = lgetv %level.12;
+        %tmp.333 = 0;
+        %tmp.334 = lt %tmp.332 %tmp.333;
+        bf %tmp.334 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_115_17_if_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_115_17_if_true:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_115_32_start:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 116 16 ]
-        %tmp.307 = lgetv %dc;
-        %tmp.308 = getv function %tmp.307 :drawLine;
-        %tmp.310 = lgetv %levelX.18;
-        %tmp.312 = lgetv %y.6;
-        %tmp.314 = lgetv %rectHeight.4;
-        %tmp.315 = 2;
-        %tmp.316 = div %tmp.314 %tmp.315;
-        %tmp.317 = add %tmp.312 %tmp.316;
-        %tmp.319 = lgetv %x.5;
-        %tmp.321 = lgetv %y.6;
-        %tmp.323 = lgetv %rectHeight.4;
-        %tmp.324 = 2;
-        %tmp.325 = div %tmp.323 %tmp.324;
-        %tmp.326 = add %tmp.321 %tmp.325;
-        invoke %tmp.307 %tmp.308(%tmp.310, %tmp.317, %tmp.319, %tmp.326);
+        %tmp.335 = lgetv %dc;
+        %tmp.336 = getv function %tmp.335 :drawLine;
+        %tmp.338 = lgetv %levelX.18;
+        %tmp.340 = lgetv %y.6;
+        %tmp.342 = lgetv %rectHeight.4;
+        %tmp.343 = 2;
+        %tmp.344 = div %tmp.342 %tmp.343;
+        %tmp.345 = add %tmp.340 %tmp.344;
+        %tmp.347 = lgetv %x.5;
+        %tmp.349 = lgetv %y.6;
+        %tmp.351 = lgetv %rectHeight.4;
+        %tmp.352 = 2;
+        %tmp.353 = div %tmp.351 %tmp.352;
+        %tmp.354 = add %tmp.349 %tmp.353;
+        invoke %tmp.335 %tmp.336(%tmp.338, %tmp.345, %tmp.347, %tmp.354);
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_115_32_stop:
         goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_115_17_if_end;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_115_17_if_end:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_112_12_if_end:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 119 12 ]
-        %tmp.327 = lgetv %y.6;
-        %tmp.329 = lgetv %rectHeight.4;
-        %tmp.330 = add %tmp.327 %tmp.329;
-        lputv %y.6 %tmp.330;
+        %tmp.355 = lgetv %y.6;
+        %tmp.357 = lgetv %rectHeight.4;
+        %tmp.358 = add %tmp.355 %tmp.357;
+        lputv %y.6 %tmp.358;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 120 12 ]
-        %tmp.331 = lgetv %y.6;
-        %tmp.333 = lgetv %margin.7;
-        %tmp.334 = add %tmp.331 %tmp.333;
-        lputv %y.6 %tmp.334;
+        %tmp.359 = lgetv %y.6;
+        %tmp.361 = lgetv %margin.7;
+        %tmp.362 = add %tmp.359 %tmp.361;
+        lputv %y.6 %tmp.362;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_stop:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_8_for_incr:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 60 ]
-        %tmp.337 = lgetv %i.8;
-        %tmp.338 = add %tmp.337 1;
-        lputv %i.8 %tmp.338;
+        %tmp.365 = lgetv %i.8;
+        %tmp.366 = add %tmp.365 1;
+        lputv %i.8 %tmp.366;
         goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_8_for_test;
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_8_for_end:
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_40_26_stop:
