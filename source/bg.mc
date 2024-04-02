@@ -16,15 +16,16 @@ class BgServiceDelegate extends Toybox.System.ServiceDelegate {
 	}
 
 	function onTemporalEvent() as Void {
-        var url = "https://api.jsonbin.io/v3/b/65cc1fd01f5677401f2ef548";
+        var url = "https://gist.githubusercontent.com/dmvaldman/bf74b84b8d6088169325f168b646e148/raw/2d5925f857affdf6b3b83838ecb0b71a5b6e9993/rooklift.json";
 
         var params = {};
+        var token = "token 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";
 
         var options = {                                             // set the options
             :method => Communications.HTTP_REQUEST_METHOD_GET,      // set HTTP method
             :headers => {                                           // set headers
                 "Content-Type" => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON,
-                "X-Access-Key" => "$2a$10$Vm5SBIfh1mmTtT8lW1kFiuY2c2vmh1QrdmcskFKBYRYYOnpIwADN6"
+                "Authorization" => token
             },
             :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
         };
@@ -35,7 +36,7 @@ class BgServiceDelegate extends Toybox.System.ServiceDelegate {
     function responseCallback(responseCode as Number, data as Dictionary?) as Void {
 		if (responseCode == 200) {
 			System.println("Response: " + data);
-            Background.exit(data.get("record"));
+            Background.exit(data);
 
 		} else {
 			System.println("Error: " + responseCode);
