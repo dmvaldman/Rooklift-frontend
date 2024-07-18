@@ -87,54 +87,18 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_28_27_stop:
     function getGlanceView() {
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_38_39_start:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 39 8 ]
-        %tmp.1 = newa 1;
-        %tmp.5 = getv ? :RoofLiftGlanceView;
-        %tmp.2 = newc %tmp.5 ();
-        %tmp.6 = dup %tmp.1;
-        %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        ret %tmp.7;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_38_39_stop:
-    }
-    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 42; ]
-    function getRandomInteger() {
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_42_32_start:
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 43 8 ]
-        [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_42_32_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_42_32_stop" ]
-        %randomNumber.1 = local;
-        %tmp.2 = getv ? :Math;
-        %tmp.3 = getv function %tmp.2 :rand;
-        %tmp.4 = invoke %tmp.2 %tmp.3();
-        lputv %randomNumber.1 %tmp.4;
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 46 8 ]
-        [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_42_32_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_42_32_stop" ]
-        %adjustedNumber.2 = local;
-        %tmp.6 = lgetv %randomNumber.1;
-        %tmp.7 = 6;
-        %tmp.8 = mod %tmp.6 %tmp.7;
-        %tmp.9 = 1;
-        %tmp.10 = add %tmp.8 %tmp.9;
-        lputv %adjustedNumber.2 %tmp.10;
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 48 8 ]
-        %tmp.12 = lgetv %adjustedNumber.2;
-        ret %tmp.12;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_42_32_stop:
-    }
-    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 52; ]
-    function getInitialView() {
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_52_30_start:
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 54 5 ]
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_54_5_if_stmt:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_39_8_if_stmt:
         %tmp.2 = getv ? :Toybox;
         %tmp.3 = getv %tmp.2 :System;
         %tmp.5 = const :ServiceDelegate;
         %tmp.6 = canhazplz %tmp.3 %tmp.5;
-        bf %tmp.6 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_54_5_if_false;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_54_5_if_true:
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_54_44_start:
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 55 6 ]
+        bf %tmp.6 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_39_8_if_false;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_39_8_if_true:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_39_47_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 40 6 ]
         %tmp.7 = true;
         putv self :canDoBG %tmp.7;
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 56 6 ]
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 41 6 ]
         %tmp.8 = getm $.Toybox.Background;
         %tmp.9 = getv function %tmp.8 :registerForTemporalEvent;
         %tmp.12 = getm $.Toybox.Time;
@@ -144,38 +108,107 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_54_44_start:
         %tmp.16 = mul %tmp.14 %tmp.15;
         %tmp.10 = newc %tmp.13 (%tmp.16);
         invoke %tmp.8 %tmp.9(%tmp.10);
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_54_44_stop:
-        goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_54_5_if_end;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_54_5_if_false:
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_57_12_start:
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 58 6 ]
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_39_47_stop:
+        goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_39_8_if_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_39_8_if_false:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_42_12_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 43 6 ]
         %tmp.17 = getm $.Toybox.System;
         %tmp.18 = getv function %tmp.17 :println;
         %tmp.19 = "****background not available on this device****";
         invoke %tmp.17 %tmp.18(%tmp.19);
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_57_12_stop:
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_54_5_if_end:
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 60 8 ]
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_42_12_stop:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_39_8_if_end:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 45 8 ]
+        %tmp.20 = newa 1;
+        %tmp.24 = getv ? :RoofLiftGlanceView;
+        %tmp.21 = newc %tmp.24 ();
+        %tmp.25 = dup %tmp.20;
+        %tmp.26 = aputv %tmp.25 0 %tmp.21;
+        ret %tmp.26;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_38_39_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 48; ]
+    function getRandomInteger() {
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_48_32_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 49 8 ]
+        [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_48_32_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_48_32_stop" ]
+        %randomNumber.1 = local;
+        %tmp.2 = getv ? :Math;
+        %tmp.3 = getv function %tmp.2 :rand;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %randomNumber.1 %tmp.4;
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 52 8 ]
+        [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_48_32_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_48_32_stop" ]
+        %adjustedNumber.2 = local;
+        %tmp.6 = lgetv %randomNumber.1;
+        %tmp.7 = 6;
+        %tmp.8 = mod %tmp.6 %tmp.7;
+        %tmp.9 = 1;
+        %tmp.10 = add %tmp.8 %tmp.9;
+        lputv %adjustedNumber.2 %tmp.10;
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 54 8 ]
+        %tmp.12 = lgetv %adjustedNumber.2;
+        ret %tmp.12;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_48_32_stop:
+    }
+    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 58; ]
+    function getInitialView() {
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_58_30_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 60 5 ]
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_60_5_if_stmt:
+        %tmp.2 = getv ? :Toybox;
+        %tmp.3 = getv %tmp.2 :System;
+        %tmp.5 = const :ServiceDelegate;
+        %tmp.6 = canhazplz %tmp.3 %tmp.5;
+        bf %tmp.6 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_60_5_if_false;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_60_5_if_true:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_60_44_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 61 6 ]
+        %tmp.7 = true;
+        putv self :canDoBG %tmp.7;
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 62 6 ]
+        %tmp.8 = getm $.Toybox.Background;
+        %tmp.9 = getv function %tmp.8 :registerForTemporalEvent;
+        %tmp.12 = getm $.Toybox.Time;
+        %tmp.13 = getv function ? %tmp.12 :Duration;
+        %tmp.14 = 5;
+        %tmp.15 = 60;
+        %tmp.16 = mul %tmp.14 %tmp.15;
+        %tmp.10 = newc %tmp.13 (%tmp.16);
+        invoke %tmp.8 %tmp.9(%tmp.10);
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_60_44_stop:
+        goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_60_5_if_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_60_5_if_false:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_63_12_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 64 6 ]
+        %tmp.17 = getm $.Toybox.System;
+        %tmp.18 = getv function %tmp.17 :println;
+        %tmp.19 = "****background not available on this device****";
+        invoke %tmp.17 %tmp.18(%tmp.19);
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_63_12_stop:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_60_5_if_end:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 66 8 ]
         %tmp.20 = newa 1;
         %tmp.24 = getv ? :RookLiftView;
         %tmp.21 = newc %tmp.24 ();
         %tmp.25 = dup %tmp.20;
         %tmp.26 = aputv %tmp.25 0 %tmp.21;
         ret %tmp.26;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_52_30_stop:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_58_30_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 63; ]
+    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 69; ]
     function onBackgroundData(data) {
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_63_36_start:
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 64 8 ]
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_8_if_stmt:
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_12_begin:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_69_36_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 70 8 ]
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_8_if_stmt:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_12_begin:
         %tmp.2 = lgetv %data;
         %tmp.3 = null;
         %tmp.4 = eq %tmp.2 %tmp.3;
         %tmp.5 = dup %tmp.4;
-        bt %tmp.5 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_28_end;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_28_false:
+        bt %tmp.5 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_28_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_28_false:
         %tmp.7 = lgetv %data;
         %tmp.8 = as %tmp.7 { (!Null) };
         %tmp.9 = getm $.Toybox.Lang;
@@ -184,84 +217,98 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_28_false:
         %tmp.12 = not %tmp.11;
         %tmp.13 = or %tmp.4 %tmp.12;
         push %tmp.13;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_28_end:
-        %tmp.14 = phi [%tmp.5 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_12_begin] [%tmp.13 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_28_false] [%tmp.14 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_28_end];
-        bf %tmp.14 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_8_if_end;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_8_if_true:
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_64_start:
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 65 12 ]
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_28_end:
+        %tmp.14 = phi [%tmp.5 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_12_begin] [%tmp.13 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_28_false] [%tmp.14 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_28_end];
+        bf %tmp.14 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_8_if_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_8_if_true:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_64_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 71 12 ]
         ret ?;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_64_stop:
-        goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_8_if_end;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_64_8_if_end:
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 68 8 ]
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_64_stop:
+        goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_8_if_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_70_8_if_end:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 74 8 ]
         %tmp.15 = lgetv %data;
         %tmp.16 = getv function %tmp.15 :get;
         %tmp.17 = "level";
         %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
         putv self :level %tmp.18;
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 69 8 ]
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 75 8 ]
         %tmp.19 = lgetv %data;
         %tmp.20 = getv function %tmp.19 :get;
         %tmp.21 = "metrics";
         %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
         putv self :metrics %tmp.22;
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 75 8 ]
-        %tmp.23 = getm $.Toybox.Application;
-        %tmp.24 = getv %tmp.23 :Storage;
-        %tmp.25 = getv function %tmp.24 :setValue;
-        %tmp.26 = "level";
-        %tmp.28 = getv ? :level;
-        invoke %tmp.24 %tmp.25(%tmp.26, %tmp.28);
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 76 8 ]
-        %tmp.29 = getm $.Toybox.Application;
-        %tmp.30 = getv %tmp.29 :Storage;
-        %tmp.31 = getv function %tmp.30 :setValue;
-        %tmp.32 = "metrics";
-        %tmp.34 = getv ? :metrics;
-        invoke %tmp.30 %tmp.31(%tmp.32, %tmp.34);
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 79 8 ]
-        %tmp.35 = getm $.Toybox.WatchUi;
-        %tmp.36 = getv function %tmp.35 :requestUpdate;
-        invoke %tmp.35 %tmp.36();
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_63_36_stop:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 77 8 ]
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_77_8_if_stmt:
+        %tmp.24 = getv ? :level;
+        %tmp.25 = 1;
+        %tmp.26 = gt %tmp.24 %tmp.25;
+        bf %tmp.26 @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_77_8_if_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_77_8_if_true:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_77_23_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 78 12 ]
+        %tmp.27 = 1;
+        putv self :level %tmp.27;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_77_23_stop:
+        goto @_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_77_8_if_end;
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_77_8_if_end:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 85 8 ]
+        %tmp.28 = getm $.Toybox.Application;
+        %tmp.29 = getv %tmp.28 :Storage;
+        %tmp.30 = getv function %tmp.29 :setValue;
+        %tmp.31 = "level";
+        %tmp.33 = getv ? :level;
+        invoke %tmp.29 %tmp.30(%tmp.31, %tmp.33);
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 86 8 ]
+        %tmp.34 = getm $.Toybox.Application;
+        %tmp.35 = getv %tmp.34 :Storage;
+        %tmp.36 = getv function %tmp.35 :setValue;
+        %tmp.37 = "metrics";
+        %tmp.39 = getv ? :metrics;
+        invoke %tmp.35 %tmp.36(%tmp.37, %tmp.39);
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 89 8 ]
+        %tmp.40 = getm $.Toybox.WatchUi;
+        %tmp.41 = getv function %tmp.40 :requestUpdate;
+        invoke %tmp.40 %tmp.41();
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_69_36_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 82; ]
+    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 92; ]
     function getServiceDelegate() {
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_82_33_start:
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 83 8 ]
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_92_33_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 93 8 ]
         %tmp.1 = newa 1;
         %tmp.5 = getv ? :BgServiceDelegate;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_82_33_stop:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_92_33_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 86; ]
+    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 96; ]
     function onAppInstall() {
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_86_28_start:
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 87 5 ]
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_96_28_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 97 5 ]
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :println;
         %tmp.3 = "onAppInstall";
         invoke %tmp.1 %tmp.2(%tmp.3);
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_86_28_stop:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_96_28_stop:
     }
-    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 90; ]
+    [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 100; ]
     function onAppUpdate() {
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_90_27_start:
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 91 5 ]
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_100_27_start:
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 101 5 ]
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :println;
         %tmp.3 = "onAppUpdate";
         invoke %tmp.1 %tmp.2(%tmp.3);
-[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 92 8 ]
+[ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc" 102 8 ]
         %tmp.4 = getm $.Toybox.Background;
         %tmp.5 = getv function %tmp.4 :exit;
         %tmp.6 = null;
         invoke %tmp.4 %tmp.5(%tmp.6);
-_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_90_27_stop:
+_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftApp_mc_100_27_stop:
     }
 }
 [ @file = "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftApp.mc"; @line = 1; ]

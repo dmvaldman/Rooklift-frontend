@@ -36,6 +36,12 @@ class RookLiftApp extends App.AppBase {
     }
 
     (:glance) function getGlanceView() {
+        if(Toybox.System has :ServiceDelegate) {
+    		canDoBG=true;
+    		Background.registerForTemporalEvent(new Time.Duration(5 * 60));
+    	} else {
+    		Sys.println("****background not available on this device****");
+    	}
         return [ new RoofLiftGlanceView() ];
     }
 
@@ -67,6 +73,10 @@ class RookLiftApp extends App.AppBase {
         // from background process
         level = data.get("level");
         metrics = data.get("metrics");
+
+        if (level > 1) {
+            level = 1;
+        }
 
         // for development
         // level = getRandomInteger();

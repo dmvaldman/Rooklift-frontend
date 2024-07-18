@@ -50,9 +50,9 @@ class RookLiftView extends WatchUi.View {
             return;
         }
 
-        var rectWidth = width/6;
+        var rectWidth = width/6.5;
         var rectHeight = fontHeight;
-        var x = width/2 + 56;
+        var x = width/2 + 60;
         var y = height/5.5;
         var margin = 6;
 
@@ -62,7 +62,7 @@ class RookLiftView extends WatchUi.View {
             var label = metric[0];
             var importance = metric[1].get("importance");
             var level = metric[1].get("level");
-            var text_margin = 48;
+            var text_margin = 40;
 
             // if importance is near 0, don't display (this is for sparse model fitting that zero-out unimportant features)
             if ((importance < .0001) && (importance > -.0001)){

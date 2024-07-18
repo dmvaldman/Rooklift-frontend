@@ -185,7 +185,7 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_48_8_if_end:
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_40_26_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_40_26_stop" ]
         %rectWidth.3 = local;
         %tmp.39 = getv ? :width;
-        %tmp.40 = 6;
+        %tmp.40 = 6.5;
         %tmp.41 = div %tmp.39 %tmp.40;
         lputv %rectWidth.3 %tmp.41;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 54 8 ]
@@ -199,7 +199,7 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_48_8_if_end:
         %tmp.45 = getv ? :width;
         %tmp.46 = 2;
         %tmp.47 = div %tmp.45 %tmp.46;
-        %tmp.48 = 56;
+        %tmp.48 = 60;
         %tmp.49 = add %tmp.47 %tmp.48;
         lputv %x.5 %tmp.49;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 56 8 ]
@@ -267,7 +267,7 @@ _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_start:
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 65 12 ]
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_start" "_Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_60_49_stop" ]
         %text_margin.13 = local;
-        %tmp.86 = 48;
+        %tmp.86 = 40;
         lputv %text_margin.13 %tmp.86;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/RookLiftView.mc" 68 12 ]
 _Users_dmvaldman_Code_RookLift_frontend_source_RookLiftView_mc_68_12_if_stmt:
