@@ -45,7 +45,7 @@ _Users_dmvaldman_Code_RookLift_frontend_source_bg_mc_39_36_start:
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_bg_mc_39_36_start" "_Users_dmvaldman_Code_RookLift_frontend_source_bg_mc_39_36_stop" ]
         %response_type.3 = local;
         %tmp.3 = getm $.Toybox.Communications;
-        %tmp.4 = getv %tmp.3 :HTTP_RESPONSE_CONTENT_TYPE_TEXT_PLAIN;
+        %tmp.4 = getv %tmp.3 :HTTP_RESPONSE_CONTENT_TYPE_JSON;
         lputv %response_type.3 %tmp.4;
 [ "/Users/dmvaldman/Code/RookLift-frontend/source/bg.mc" 48 8 ]
         [ "_Users_dmvaldman_Code_RookLift_frontend_source_bg_mc_39_36_start" "_Users_dmvaldman_Code_RookLift_frontend_source_bg_mc_39_36_stop" ]

@@ -8,6 +8,7 @@ import Toybox.Lang;
 // info about whats happening with the background process
 var level = 0.6;
 var metrics = [];
+var fresh = false;
 
 var canDoBG=false;
 var inBackground=false;
@@ -17,6 +18,22 @@ class RookLiftApp extends App.AppBase {
 
     function initialize() {
         AppBase.initialize();
+
+        // Load stored values when app initializes
+        var storedLevel = App.Storage.getValue("level");
+        if (storedLevel != null) {
+            level = storedLevel;
+        }
+
+        var storedMetrics = App.Storage.getValue("metrics");
+        if (storedMetrics != null) {
+            metrics = storedMetrics;
+        }
+
+        var storedFresh = App.Storage.getValue("fresh");
+        if (storedFresh != null) {
+            fresh = storedFresh;
+        }
     }
 
     // onStart() is called on application start up
@@ -30,8 +47,7 @@ class RookLiftApp extends App.AppBase {
     	if(!inBackground) {
             App.Storage.setValue("level", level);
             App.Storage.setValue("metrics", metrics);
-    	} else {
-    		Sys.println("onStop");
+            App.Storage.setValue("fresh", fresh);
     	}
     }
 
@@ -77,26 +93,16 @@ class RookLiftApp extends App.AppBase {
     	registerForBackgroundEvents();
 
         // Make wake event request when user opens the app
-        makeWakeRequest();
+        // Check if we've already made a request today
+        var isFresh = App.Storage.getValue("fresh");
+        if (!isFresh) {
+            makeWakeRequest();
+        }
 
         return [ new RookLiftView() ];
     }
 
     function makeWakeRequest() as Void {
-        // Check if we've already made a request today
-        var lastRequestDate = App.Storage.getValue("lastWakeRequestDate");
-        var today = Time.now();
-        var todayDate = today.value() / (24 * 60 * 60); // Days since epoch
-
-        // Check if we've already made a request today
-        if (lastRequestDate != null && lastRequestDate == todayDate) {
-            Sys.println("Wake request already made today, skipping");
-            return;
-        }
-
-        // Store today's date
-        App.Storage.setValue("lastWakeRequestDate", todayDate);
-
         // Webhook URL for running today's prediction
         var url = "https://dmvaldman--rooklift-predict-webhook.modal.run/";
 
@@ -118,13 +124,11 @@ class RookLiftApp extends App.AppBase {
         if (data == null || !(data instanceof Lang.Dictionary)) {
             return;
         }
+
         // from background process
         level = data.get("level");
         metrics = data.get("metrics");
-
-        if (level > 1) {
-            level = 1;
-        }
+        fresh = data.get("fresh");
 
         // for development
         // level = getRandomInteger();
@@ -132,6 +136,7 @@ class RookLiftApp extends App.AppBase {
 
         App.Storage.setValue("level", level);
         App.Storage.setValue("metrics", metrics);
+        App.Storage.setValue("fresh", fresh);
 
         // update both the glance view and app view
         WatchUi.requestUpdate();
@@ -146,7 +151,7 @@ class RookLiftApp extends App.AppBase {
         }
     }
 
-    function onBackgroundData(data) {
+    function onBackgroundData(data) as Void {
         updateUI(data);
     }
 

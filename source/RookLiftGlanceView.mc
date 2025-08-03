@@ -7,29 +7,36 @@ using Toybox.Application as App;
 (:glance)
 class RoofLiftGlanceView extends WatchUi.GlanceView {
   var deviceWidth, deviceHeight;
+  var level = null;
+  var fresh = false;
 
   function initialize() {
     GlanceView.initialize();
   }
 
   function onLayout(dc as Graphics.Dc) as Void {
-    deviceWidth=dc.getWidth();
-    deviceHeight=dc.getHeight();
+    deviceWidth = dc.getWidth();
+    deviceHeight = dc.getHeight();
   }
 
   function onShow() as Void {
-    var temp = App.Storage.getValue("level");
-    if (temp != null) {
-      level = temp;
-    }
-    metrics = App.Storage.getValue("metrics");
+    level = App.Storage.getValue("level");
+    fresh = App.Storage.getValue("fresh");
   }
 
   function onUpdate(dc as Graphics.Dc) as Void {
     dc.clear();
 
+    var title_color;
+    if (fresh) {
+      title_color = Graphics.COLOR_WHITE;
+    }
+    else {
+      title_color = Graphics.COLOR_ORANGE;
+    }
+
     var font = Graphics.FONT_TINY;
-    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+    dc.setColor(title_color, Graphics.COLOR_TRANSPARENT);
     dc.drawText(0, 0, font, "ROOK LIFT", Graphics.TEXT_JUSTIFY_LEFT);
 
     var fontHeight = dc.getFontHeight(font);

@@ -43,7 +43,7 @@ class BgServiceDelegate extends Toybox.System.ServiceDelegate {
         var url = "https://rooklift.s3.us-west-1.amazonaws.com/rooklift.json";
 
         var params = {};
-        var response_type = Communications.HTTP_RESPONSE_CONTENT_TYPE_TEXT_PLAIN;
+        var response_type = Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON;
 
         var options = {                                             // set the options
             :method => Communications.HTTP_REQUEST_METHOD_GET,      // set HTTP method

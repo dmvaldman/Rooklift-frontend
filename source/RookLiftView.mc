@@ -12,6 +12,7 @@ class RookLiftView extends WatchUi.View {
         View.initialize();
         level = App.Storage.getValue("level");
         metrics = App.Storage.getValue("metrics");
+        fresh = App.Storage.getValue("fresh");
     }
 
     // Load your resources here
@@ -26,6 +27,7 @@ class RookLiftView extends WatchUi.View {
     function onShow() {
         level = App.Storage.getValue("level");
         metrics = App.Storage.getValue("metrics");
+        fresh = App.Storage.getValue("fresh");
     }
 
     function max(a, b) {
@@ -50,10 +52,10 @@ class RookLiftView extends WatchUi.View {
             return;
         }
 
-        var rectWidth = width/6.5;
+        var rectWidth = width / 6.5;
         var rectHeight = fontHeight;
-        var x = width/2 + 60;
-        var y = height/5.5;
+        var x = width / 2 + 60;
+        var y = height / 5;
         var margin = 6;
 
         // loop through metrics
